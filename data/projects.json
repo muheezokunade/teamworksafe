@@ -1,0 +1,209 @@
+[
+  {
+    "id": "1",
+    "slug": "lekki-commercial-plaza",
+    "title": "Lekki Commercial Plaza Development",
+    "client": "Peninsula Properties Ltd",
+    "sector": "Commercial",
+    "service": "General Construction",
+    "location": "Lekki, Lagos State",
+    "year": "2023",
+    "status": "Completed",
+    "duration": "18 months",
+    "image": "/images/projects/lekki-plaza.jpg",
+    "gallery": [
+      "/images/projects/lekki-plaza-1.jpg",
+      "/images/projects/lekki-plaza-2.jpg",
+      "/images/projects/lekki-plaza-3.jpg",
+      "/images/projects/lekki-plaza-4.jpg"
+    ],
+    "overview": "A modern 5-story commercial complex featuring retail spaces, offices, and underground parking. The project showcases contemporary Nigerian architecture with sustainable design elements.",
+    "objectives": [
+      "Deliver a premium commercial space meeting international standards",
+      "Complete construction within 18-month timeline",
+      "Implement green building practices",
+      "Ensure zero lost-time incidents"
+    ],
+    "scopeAndApproach": "Our team managed the complete construction cycle from foundation to fit-out. We utilized advanced construction methodologies including precast concrete elements and modular systems to accelerate delivery. The project incorporated energy-efficient systems, rainwater harvesting, and natural ventilation to reduce operational costs.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Floor Area", "value": "12,500 sqm" },
+        { "label": "Completion", "value": "2 weeks ahead of schedule" },
+        { "label": "Safety Record", "value": "Zero LTI" },
+        { "label": "Cost Efficiency", "value": "5% under budget" }
+      ]
+    },
+    "testimonial": {
+      "quote": "Teamwork Safe Operations delivered exceptional quality and professionalism throughout the project. Their commitment to safety and timely delivery exceeded our expectations.",
+      "author": "Engr. Chidi Okonkwo",
+      "role": "Project Director, Peninsula Properties Ltd"
+    },
+    "tags": ["Commercial", "Construction", "Lagos", "Completed"]
+  },
+  {
+    "id": "2",
+    "slug": "port-harcourt-solar-farm",
+    "title": "Port Harcourt Industrial Solar Farm",
+    "client": "Rivers Energy Corporation",
+    "sector": "Energy",
+    "service": "Renewable Energy Solutions",
+    "location": "Port Harcourt, Rivers State",
+    "year": "2024",
+    "status": "Completed",
+    "duration": "10 months",
+    "image": "/images/projects/solar-farm.jpg",
+    "gallery": [
+      "/images/projects/solar-farm-1.jpg",
+      "/images/projects/solar-farm-2.jpg",
+      "/images/projects/solar-farm-3.jpg",
+      "/images/projects/solar-farm-4.jpg"
+    ],
+    "overview": "A 5MW solar power installation serving multiple industrial facilities in the Trans-Amadi Industrial Layout. This project represents one of the largest commercial solar installations in Rivers State.",
+    "objectives": [
+      "Install 5MW grid-tied solar power system",
+      "Reduce client's energy costs by 40%",
+      "Achieve 25-year system lifespan",
+      "Provide comprehensive O&M support"
+    ],
+    "scopeAndApproach": "The project involved site assessment, system design, procurement of tier-1 solar panels and inverters, installation, grid integration, and commissioning. We worked closely with the Port Harcourt Electricity Distribution Company (PHED) to ensure seamless grid connection and compliance with all regulatory requirements.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Capacity", "value": "5MW" },
+        { "label": "Annual Generation", "value": "7.2 GWh" },
+        { "label": "CO2 Reduction", "value": "3,600 tons/year" },
+        { "label": "Cost Savings", "value": "₦240M annually" }
+      ]
+    },
+    "testimonial": {
+      "quote": "The solar installation has transformed our energy profile. Teamwork Safe Operations demonstrated deep technical expertise and delivered a system that performs above projections.",
+      "author": "Barr. Ifeoma Nwachukwu",
+      "role": "CEO, Rivers Energy Corporation"
+    },
+    "tags": ["Energy", "Solar", "Port Harcourt", "Completed"]
+  },
+  {
+    "id": "3",
+    "slug": "abuja-residential-estate",
+    "title": "Gwarinpa Residential Estate Phase II",
+    "client": "Capital Homes Development",
+    "sector": "Residential",
+    "service": "General Construction",
+    "location": "Gwarinpa, FCT Abuja",
+    "year": "2023",
+    "status": "Completed",
+    "duration": "24 months",
+    "image": "/images/projects/gwarinpa-estate.jpg",
+    "gallery": [
+      "/images/projects/gwarinpa-1.jpg",
+      "/images/projects/gwarinpa-2.jpg",
+      "/images/projects/gwarinpa-3.jpg",
+      "/images/projects/gwarinpa-4.jpg"
+    ],
+    "overview": "Development of 120 residential units including 3-bedroom and 4-bedroom terrace houses with modern amenities, security infrastructure, and recreational facilities.",
+    "objectives": [
+      "Build quality affordable housing",
+      "Implement efficient construction methods",
+      "Create sustainable community infrastructure",
+      "Maintain highest safety standards"
+    ],
+    "scopeAndApproach": "Utilizing modular construction techniques and local materials, we delivered quality homes efficiently. The project included roads, drainage, water supply, solar street lighting, and a community center. We engaged local subcontractors and suppliers, contributing to the local economy.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Units Delivered", "value": "120 homes" },
+        { "label": "Local Jobs Created", "value": "200+" },
+        { "label": "Safety Performance", "value": "1.2M man-hours, zero LTI" },
+        { "label": "Quality Rating", "value": "98% client satisfaction" }
+      ]
+    },
+    "testimonial": {
+      "quote": "Professional execution from start to finish. The homes are beautiful and our buyers are extremely happy with the quality.",
+      "author": "Arch. Funmi Adeleke",
+      "role": "MD, Capital Homes Development"
+    },
+    "tags": ["Residential", "Construction", "Abuja", "Completed"]
+  },
+  {
+    "id": "4",
+    "slug": "warri-refinery-maintenance",
+    "title": "Warri Refinery Equipment Overhaul",
+    "client": "Confidential - Oil & Gas Client",
+    "sector": "Oil & Gas",
+    "service": "Plant and Equipment Maintenance",
+    "location": "Warri, Delta State",
+    "year": "2022",
+    "status": "Completed",
+    "duration": "6 months",
+    "image": "/images/projects/refinery-maintenance.jpg",
+    "gallery": [
+      "/images/projects/refinery-1.jpg",
+      "/images/projects/refinery-2.jpg",
+      "/images/projects/refinery-3.jpg",
+      "/images/projects/refinery-4.jpg"
+    ],
+    "overview": "Comprehensive shutdown maintenance and equipment overhaul for critical processing units, including inspection, repair, and replacement of major equipment.",
+    "objectives": [
+      "Complete shutdown maintenance within 45-day window",
+      "Restore equipment to optimal performance",
+      "Zero safety incidents",
+      "Minimize downtime and production loss"
+    ],
+    "scopeAndApproach": "Our team of specialized technicians conducted detailed inspections, NDT testing, mechanical repairs, and performance testing. We coordinated with multiple vendors and worked round-the-clock shifts to meet the aggressive timeline while maintaining strict HSE protocols.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Shutdown Duration", "value": "43 days" },
+        { "label": "Equipment Serviced", "value": "150+ units" },
+        { "label": "Safety Record", "value": "Zero incidents" },
+        { "label": "Performance Improvement", "value": "15% efficiency gain" }
+      ]
+    },
+    "testimonial": {
+      "quote": "Exceptional technical capability and safety culture. The team delivered beyond expectations in a challenging operational environment.",
+      "author": "Engr. Samuel Okoro",
+      "role": "Maintenance Manager"
+    },
+    "tags": ["Oil & Gas", "Maintenance", "Warri", "Completed"]
+  },
+  {
+    "id": "5",
+    "slug": "lagos-island-office-tower",
+    "title": "Marina Office Tower Renovation",
+    "client": "Atlantic Properties PLC",
+    "sector": "Commercial",
+    "service": "General Construction",
+    "location": "Lagos Island, Lagos State",
+    "year": "2024",
+    "status": "In Progress",
+    "duration": "12 months",
+    "image": "/images/projects/marina-tower.jpg",
+    "gallery": [
+      "/images/projects/marina-1.jpg",
+      "/images/projects/marina-2.jpg",
+      "/images/projects/marina-3.jpg"
+    ],
+    "overview": "Complete renovation of a 15-story office building including structural upgrades, new MEP systems, facade restoration, and modern interior fit-out.",
+    "objectives": [
+      "Modernize building systems to Grade A standards",
+      "Improve energy efficiency by 50%",
+      "Achieve LEED certification",
+      "Minimal disruption to occupied floors"
+    ],
+    "scopeAndApproach": "Phased renovation approach allowing partial occupancy. Upgrades include new HVAC systems, LED lighting, building automation, high-speed elevators, and a modern glass facade. Special attention to heritage preservation of the 1970s structure.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Progress", "value": "65% complete" },
+        { "label": "Floor Area", "value": "18,000 sqm" },
+        { "label": "Expected Completion", "value": "Q2 2025" },
+        { "label": "Energy Savings Target", "value": "50%" }
+      ]
+    },
+    "testimonial": {
+      "quote": "The project is progressing smoothly with excellent quality control. The team's ability to work in an occupied building is remarkable.",
+      "author": "Mrs. Adaeze Nwankwo",
+      "role": "Head of Real Estate, Atlantic Properties PLC"
+    },
+    "tags": ["Commercial", "Renovation", "Lagos", "In Progress"]
+  }
+]
+
+
+

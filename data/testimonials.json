@@ -1,0 +1,59 @@
+[
+  {
+    "id": "1",
+    "quote": "Teamwork Safe Operations delivered exceptional quality and professionalism throughout our commercial plaza project. Their commitment to safety and timely delivery exceeded our expectations.",
+    "author": "Engr. Chidi Okonkwo",
+    "role": "Project Director",
+    "company": "Peninsula Properties Ltd",
+    "logo": "/images/clients/peninsula.png",
+    "image": "/images/testimonials/chidi-okonkwo.jpg"
+  },
+  {
+    "id": "2",
+    "quote": "The solar installation has transformed our energy profile. Teamwork Safe Operations demonstrated deep technical expertise and delivered a system that performs above projections.",
+    "author": "Barr. Ifeoma Nwachukwu",
+    "role": "CEO",
+    "company": "Rivers Energy Corporation",
+    "logo": "/images/clients/rivers-energy.png",
+    "image": "/images/testimonials/ifeoma-nwachukwu.jpg"
+  },
+  {
+    "id": "3",
+    "quote": "Professional execution from start to finish. The residential homes are beautiful and our buyers are extremely happy with the quality delivered by the team.",
+    "author": "Arch. Funmi Adeleke",
+    "role": "Managing Director",
+    "company": "Capital Homes Development",
+    "logo": "/images/clients/capital-homes.png",
+    "image": "/images/testimonials/funmi-adeleke.jpg"
+  },
+  {
+    "id": "4",
+    "quote": "Exceptional technical capability and safety culture. The team delivered beyond expectations in a challenging operational environment during our refinery maintenance shutdown.",
+    "author": "Engr. Samuel Okoro",
+    "role": "Maintenance Manager",
+    "company": "Major Oil & Gas Company",
+    "logo": "/images/clients/confidential.png",
+    "image": "/images/testimonials/samuel-okoro.jpg"
+  },
+  {
+    "id": "5",
+    "quote": "Our office tower renovation is progressing smoothly with excellent quality control. The team's ability to work in an occupied building while maintaining high standards is remarkable.",
+    "author": "Mrs. Adaeze Nwankwo",
+    "role": "Head of Real Estate",
+    "company": "Atlantic Properties PLC",
+    "logo": "/images/clients/atlantic-properties.png",
+    "image": "/images/testimonials/adaeze-nwankwo.jpg"
+  },
+  {
+    "id": "6",
+    "quote": "Their equipment leasing service is top-notch. Well-maintained machinery, timely delivery, and excellent technical support. They are our go-to partner for all equipment needs.",
+    "author": "Mr. Tunde Bakare",
+    "role": "Operations Manager",
+    "company": "Delta Construction Ltd",
+    "logo": "/images/clients/delta-construction.png",
+    "image": "/images/testimonials/tunde-bakare.jpg"
+  }
+]
+
+
+

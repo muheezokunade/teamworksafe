@@ -1,0 +1,293 @@
+[
+  {
+    "id": "1",
+    "name": "Caterpillar 320D Excavator",
+    "category": "Excavators",
+    "brand": "Caterpillar",
+    "model": "320D",
+    "capacity": "20 tons",
+    "location": "Lagos",
+    "availability": "Available",
+    "image": "/images/equipment/excavator-320d.jpg",
+    "specs": {
+      "engine": "Cat C6.4 ACERT, 121 HP",
+      "operatingWeight": "20,500 kg",
+      "bucketCapacity": "0.9 m³",
+      "maxDiggingDepth": "6.5 m",
+      "maxReach": "9.8 m"
+    },
+    "rate": {
+      "daily": "₦150,000",
+      "weekly": "₦900,000",
+      "monthly": "₦3,200,000"
+    },
+    "description": "Reliable excavator for medium to heavy-duty earthworks, trenching, and material handling."
+  },
+  {
+    "id": "2",
+    "name": "JCB 3CX Backhoe Loader",
+    "category": "Loaders",
+    "brand": "JCB",
+    "model": "3CX",
+    "capacity": "1.0 m³",
+    "location": "Port Harcourt",
+    "availability": "Available",
+    "image": "/images/equipment/jcb-3cx.jpg",
+    "specs": {
+      "engine": "JCB EcoMAX, 109 HP",
+      "operatingWeight": "8,500 kg",
+      "loaderCapacity": "1.1 m³",
+      "digDepth": "4.3 m",
+      "loadHeight": "2.6 m"
+    },
+    "rate": {
+      "daily": "₦120,000",
+      "weekly": "₦700,000",
+      "monthly": "₦2,500,000"
+    },
+    "description": "Versatile backhoe loader ideal for construction sites, landscaping, and utility projects."
+  },
+  {
+    "id": "3",
+    "name": "Perkins 500 KVA Generator",
+    "category": "Generators",
+    "brand": "Perkins",
+    "model": "2506TAG",
+    "capacity": "500 KVA",
+    "location": "Lagos",
+    "availability": "Available",
+    "image": "/images/equipment/generator-500kva.jpg",
+    "specs": {
+      "engine": "Perkins 2506TAG2",
+      "power": "500 KVA / 400 KW",
+      "voltage": "415V, 50Hz",
+      "fuelTank": "800 Liters",
+      "runTime": "8-10 hours at full load"
+    },
+    "rate": {
+      "daily": "₦180,000",
+      "weekly": "₦1,100,000",
+      "monthly": "₦4,000,000"
+    },
+    "description": "High-capacity diesel generator for construction sites, events, and backup power applications."
+  },
+  {
+    "id": "4",
+    "name": "Komatsu D65 Bulldozer",
+    "category": "Bulldozers",
+    "brand": "Komatsu",
+    "model": "D65EX-17",
+    "capacity": "18 tons",
+    "location": "Lagos",
+    "availability": "Rented",
+    "image": "/images/equipment/bulldozer-d65.jpg",
+    "specs": {
+      "engine": "Komatsu SAA6D114E-5, 187 HP",
+      "operatingWeight": "18,900 kg",
+      "bladeCapacity": "3.4 m³",
+      "groundPressure": "0.59 kg/cm²",
+      "drawbarPull": "17,200 kg"
+    },
+    "rate": {
+      "daily": "₦200,000",
+      "weekly": "₦1,200,000",
+      "monthly": "₦4,500,000"
+    },
+    "description": "Powerful bulldozer for large-scale earthmoving, land clearing, and grading operations."
+  },
+  {
+    "id": "5",
+    "name": "Volvo L90H Wheel Loader",
+    "category": "Loaders",
+    "brand": "Volvo",
+    "model": "L90H",
+    "capacity": "3.0 m³",
+    "location": "Port Harcourt",
+    "availability": "Available",
+    "image": "/images/equipment/loader-l90h.jpg",
+    "specs": {
+      "engine": "Volvo D7E, 197 HP",
+      "operatingWeight": "15,800 kg",
+      "bucketCapacity": "3.0 m³",
+      "breakoutForce": "138 kN",
+      "tippingLoad": "11,900 kg"
+    },
+    "rate": {
+      "daily": "₦160,000",
+      "weekly": "₦950,000",
+      "monthly": "₦3,500,000"
+    },
+    "description": "Efficient wheel loader for material handling, loading trucks, and stockpile management."
+  },
+  {
+    "id": "6",
+    "name": "Atlas Copco XAS 185 Compressor",
+    "category": "Compressors",
+    "brand": "Atlas Copco",
+    "model": "XAS 185",
+    "capacity": "10.5 m³/min",
+    "location": "Lagos",
+    "availability": "Available",
+    "image": "/images/equipment/compressor-xas185.jpg",
+    "specs": {
+      "engine": "Kubota V3307-DI-T-E3B, 74 HP",
+      "airFlow": "10.5 m³/min",
+      "workingPressure": "7-10 bar",
+      "fuelTank": "150 Liters",
+      "noise": "99 dB(A)"
+    },
+    "rate": {
+      "daily": "₦80,000",
+      "weekly": "₦480,000",
+      "monthly": "₦1,800,000"
+    },
+    "description": "Portable air compressor for pneumatic tools, rock drilling, and sandblasting applications."
+  },
+  {
+    "id": "7",
+    "name": "Manitou MT 625 Telehandler",
+    "category": "Material Handling",
+    "brand": "Manitou",
+    "model": "MT 625",
+    "capacity": "2.5 tons",
+    "location": "Lagos",
+    "availability": "Available",
+    "image": "/images/equipment/telehandler-mt625.jpg",
+    "specs": {
+      "engine": "Mercedes OM904LA, 75 HP",
+      "maxCapacity": "2,500 kg",
+      "maxHeight": "6.0 m",
+      "maxReach": "3.8 m",
+      "operatingWeight": "5,500 kg"
+    },
+    "rate": {
+      "daily": "₦100,000",
+      "weekly": "₦600,000",
+      "monthly": "₦2,200,000"
+    },
+    "description": "Versatile telehandler for lifting, placing materials at height, and rough terrain operation."
+  },
+  {
+    "id": "8",
+    "name": "Hamm HD 14 VV Roller",
+    "category": "Compaction",
+    "brand": "Hamm",
+    "model": "HD 14 VV",
+    "capacity": "14 tons",
+    "location": "Port Harcourt",
+    "availability": "Available",
+    "image": "/images/equipment/roller-hd14.jpg",
+    "specs": {
+      "engine": "Deutz TCD 2012 L04 2V, 100 HP",
+      "operatingWeight": "14,000 kg",
+      "drumWidth": "2,130 mm",
+      "amplitude": "0.9/1.8 mm",
+      "frequency": "30/34 Hz"
+    },
+    "rate": {
+      "daily": "₦140,000",
+      "weekly": "₦840,000",
+      "monthly": "₦3,000,000"
+    },
+    "description": "Tandem vibratory roller for soil and asphalt compaction on roads and large surfaces."
+  },
+  {
+    "id": "9",
+    "name": "Genie S-65 Boom Lift",
+    "category": "Aerial Work Platforms",
+    "brand": "Genie",
+    "model": "S-65",
+    "capacity": "227 kg",
+    "location": "Lagos",
+    "availability": "Maintenance",
+    "image": "/images/equipment/boomlift-s65.jpg",
+    "specs": {
+      "engine": "Diesel 4-cylinder, 74 HP",
+      "platformHeight": "20 m",
+      "horizontalReach": "16.76 m",
+      "platformCapacity": "227 kg",
+      "weight": "12,470 kg"
+    },
+    "rate": {
+      "daily": "₦110,000",
+      "weekly": "₦650,000",
+      "monthly": "₦2,400,000"
+    },
+    "description": "Telescopic boom lift for high-reach construction, maintenance, and installation work."
+  },
+  {
+    "id": "10",
+    "name": "Mikasa MVH-306DS Plate Compactor",
+    "category": "Compaction",
+    "brand": "Mikasa",
+    "model": "MVH-306DS",
+    "capacity": "300 kg",
+    "location": "Port Harcourt",
+    "availability": "Available",
+    "image": "/images/equipment/plate-compactor.jpg",
+    "specs": {
+      "engine": "Honda GX160, 5.5 HP",
+      "operatingWeight": "93 kg",
+      "plateSize": "500 x 600 mm",
+      "compactionForce": "30 kN",
+      "frequency": "95 Hz"
+    },
+    "rate": {
+      "daily": "₦15,000",
+      "weekly": "₦90,000",
+      "monthly": "₦300,000"
+    },
+    "description": "Heavy-duty plate compactor for trench work, foundation preparation, and confined spaces."
+  },
+  {
+    "id": "11",
+    "name": "Cummins 250 KVA Generator",
+    "category": "Generators",
+    "brand": "Cummins",
+    "model": "C250D5",
+    "capacity": "250 KVA",
+    "location": "Lagos",
+    "availability": "Available",
+    "image": "/images/equipment/generator-250kva.jpg",
+    "specs": {
+      "engine": "Cummins 6LTAA8.9-G2",
+      "power": "250 KVA / 200 KW",
+      "voltage": "415V, 50Hz",
+      "fuelTank": "500 Liters",
+      "runTime": "10-12 hours at full load"
+    },
+    "rate": {
+      "daily": "₦100,000",
+      "weekly": "₦600,000",
+      "monthly": "₦2,200,000"
+    },
+    "description": "Reliable mid-range generator for medium construction sites and commercial applications."
+  },
+  {
+    "id": "12",
+    "name": "Terex TL160 Skid Steer Loader",
+    "category": "Loaders",
+    "brand": "Terex",
+    "model": "TL160",
+    "capacity": "0.7 m³",
+    "location": "Lagos",
+    "availability": "Available",
+    "image": "/images/equipment/skidsteer-tl160.jpg",
+    "specs": {
+      "engine": "Yanmar 4TNV98C, 72 HP",
+      "operatingWeight": "3,900 kg",
+      "bucketCapacity": "0.7 m³",
+      "operatingCapacity": "816 kg",
+      "tippingLoad": "2,330 kg"
+    },
+    "rate": {
+      "daily": "₦85,000",
+      "weekly": "₦500,000",
+      "monthly": "₦1,800,000"
+    },
+    "description": "Compact and maneuverable skid steer loader for confined spaces and multi-purpose tasks."
+  }
+]
+
+
+

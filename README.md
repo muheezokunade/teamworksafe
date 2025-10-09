@@ -1,36 +1,208 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Teamwork Safe Operations Limited - Website
 
-## Getting Started
+A modern, production-ready marketing website for **Teamwork Safe Operations Limited**, a leading provider of construction, project management, renewable energy, and equipment services in Nigeria.
 
-First, run the development server:
+## 🎨 Brand Identity
+
+### Color Palette
+
+```
+Primary:  #2C4175 - Headings, key UI accents
+Accent:   #B69A6F - Buttons, highlights
+Text:     #2C2825 - Body text
+Surface:  #FFFFFF - Card backgrounds
+BG:       #EFEFEF - Alternate sections
+Muted:    #A9BAC6 - Secondary text
+Border:   #E3E3E3 - Dividers
+```
+
+### Typography
+
+- **Body**: Inter (Google Fonts)
+- **Headings**: Plus Jakarta Sans (Google Fonts)
+- **Base Size**: 16px
+- **Scale**: 1.125
+- **Line Heights**: Headings 1.2, Body 1.65
+
+### Spacing Rhythm
+
+12px, 16px, 24px, 32px, 48px, 64px
+
+## 🚀 Tech Stack
+
+- **Next.js 14** with App Router
+- **TypeScript**
+- **Tailwind CSS** for styling
+- **shadcn/ui** for UI components
+- **Framer Motion** for animations
+- **Lucide React** for icons
+- **React Hook Form** + **Zod** for form validation
+- **@vercel/analytics** and **@vercel/speed-insights**
+
+## 📁 Project Structure
+
+```
+teamwork-safe-operations/
+├── app/                    # Next.js 14 App Router pages
+│   ├── about/
+│   ├── services/
+│   ├── projects/
+│   ├── equipment/
+│   ├── hse/
+│   ├── clients/
+│   ├── careers/
+│   ├── blog/
+│   ├── contact/
+│   └── staff-login/
+├── components/
+│   ├── home/              # Home page sections
+│   ├── layout/            # Header and Footer
+│   ├── shared/            # Reusable components
+│   └── ui/                # shadcn/ui components
+├── data/                  # JSON data files
+│   ├── services.json
+│   ├── projects.json
+│   ├── equipment.json
+│   ├── testimonials.json
+│   ├── clients.json
+│   └── jobs.json
+└── public/                # Static assets
+```
+
+## 🛠 Setup Instructions
+
+1. **Clone the repository**
+
+```bash
+git clone <repository-url>
+cd teamwork-safe-operations
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Run development server**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The site will be available at `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. **Build for production**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## 📷 Adding Images
 
-To learn more about Next.js, take a look at the following resources:
+Replace placeholder images in the `public/images/` directory:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Required Image Directories
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `public/images/hero-construction.jpg` - Homepage hero background
+- `public/images/services/` - Service page images
+- `public/images/projects/` - Project images and galleries
+- `public/images/equipment/` - Equipment catalogue photos
+- `public/images/team/` - Leadership team photos
+- `public/images/clients/` - Client logos
+- `public/images/testimonials/` - Client testimonial photos
+- `public/images/blog/` - Blog post featured images
 
-## Deploy on Vercel
+### Image Specifications
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Hero Images**: 1920x1080px minimum
+- **Service Cards**: 800x600px
+- **Project Images**: 1200x800px
+- **Equipment Photos**: 800x600px
+- **Logos**: SVG or PNG with transparent background
+- **Team Photos**: 500x500px (square)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎯 Features
+
+### Implemented
+
+- ✅ Responsive design (mobile-first)
+- ✅ Sticky header with mega menu
+- ✅ Smooth animations with Framer Motion
+- ✅ Form validation with React Hook Form + Zod
+- ✅ SEO optimization with metadata
+- ✅ Sitemap and robots.txt
+- ✅ Equipment catalogue with filtering
+- ✅ Project showcase with case studies
+- ✅ Job listings with filters
+- ✅ Blog layout
+- ✅ Contact forms
+- ✅ HSE policy pages
+- ✅ Client testimonials carousel
+- ✅ Analytics integration ready
+
+### To Customize
+
+- Update contact information in `data/` files
+- Replace placeholder images
+- Configure analytics tracking IDs
+- Add real API endpoints for form submissions
+- Implement authentication for staff login
+- Add actual blog posts (currently placeholder)
+
+## 🔧 Configuration
+
+### Tailwind Theme
+
+Custom theme is configured in `tailwind.config.ts`:
+- Brand colors
+- Custom fonts
+- Spacing scale
+- Line heights
+
+### Metadata & SEO
+
+Global metadata in `app/layout.tsx`. Page-specific metadata in each page component.
+
+## 📱 Responsive Breakpoints
+
+- Mobile: < 768px
+- Tablet: 768px - 1024px
+- Desktop: > 1024px
+- Max container: 1200px
+
+## ♿ Accessibility
+
+- AA contrast ratios on all text
+- Focus visible indicators
+- ARIA labels on interactive elements
+- Keyboard navigation support
+- Semantic HTML
+
+## 🚢 Deployment
+
+### Vercel (Recommended)
+
+```bash
+npm install -g vercel
+vercel
+```
+
+### Other Platforms
+
+1. Build the project: `npm run build`
+2. Deploy the `.next` folder and `package.json`
+3. Set Node.js version to 18+
+
+## 📞 Support
+
+For questions about the website codebase, please contact the development team.
+
+## 📄 License
+
+© 2024 Teamwork Safe Operations Limited. All rights reserved.
+
+---
+
+**Built with ❤️ for Teamwork Safe Operations Limited**

@@ -1,0 +1,239 @@
+[
+  {
+    "id": "1",
+    "slug": "general-construction",
+    "title": "General Construction",
+    "description": "Comprehensive construction services for residential, commercial, and industrial projects across Nigeria.",
+    "icon": "Building2",
+    "image": "/images/services/construction.jpg",
+    "fullDescription": "We provide end-to-end construction solutions, from foundation to finishing, ensuring quality, safety, and timely delivery for projects of all scales.",
+    "scope": [
+      "Building construction (residential & commercial)",
+      "Industrial facility development",
+      "Infrastructure projects",
+      "Civil engineering works",
+      "Structural repairs and renovations",
+      "Site preparation and earthworks"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Site Assessment",
+        "description": "Comprehensive evaluation of project site and requirements"
+      },
+      {
+        "step": 2,
+        "title": "Planning & Design",
+        "description": "Detailed planning with architectural and engineering teams"
+      },
+      {
+        "step": 3,
+        "title": "Execution",
+        "description": "Professional construction with strict quality control"
+      },
+      {
+        "step": 4,
+        "title": "Handover",
+        "description": "Final inspection, documentation, and client training"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "slug": "project-management",
+    "title": "Project Management",
+    "description": "Expert project management services ensuring on-time delivery and optimal resource utilization.",
+    "icon": "ClipboardList",
+    "image": "/images/services/project-management.jpg",
+    "fullDescription": "Our certified project managers bring expertise in planning, coordinating, and executing complex projects while managing budgets, timelines, and stakeholder expectations.",
+    "scope": [
+      "Project planning and scheduling",
+      "Budget management and cost control",
+      "Quality assurance and control",
+      "Risk assessment and mitigation",
+      "Stakeholder communication",
+      "Resource allocation and optimization"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Initiation",
+        "description": "Define project scope, objectives, and deliverables"
+      },
+      {
+        "step": 2,
+        "title": "Planning",
+        "description": "Develop comprehensive project plan and schedule"
+      },
+      {
+        "step": 3,
+        "title": "Execution",
+        "description": "Coordinate teams and monitor progress"
+      },
+      {
+        "step": 4,
+        "title": "Closure",
+        "description": "Evaluate outcomes and document lessons learned"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "slug": "renewable-energy",
+    "title": "Renewable Energy Solutions",
+    "description": "Sustainable energy solutions including solar, wind, and hybrid systems for commercial and residential use.",
+    "icon": "Zap",
+    "image": "/images/services/renewable-energy.jpg",
+    "fullDescription": "We design, install, and maintain renewable energy systems that reduce costs and environmental impact while ensuring reliable power supply.",
+    "scope": [
+      "Solar panel installation and maintenance",
+      "Wind energy systems",
+      "Hybrid power solutions",
+      "Energy storage systems",
+      "Grid-tied and off-grid solutions",
+      "Energy audit and optimization"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Energy Audit",
+        "description": "Assess current energy usage and requirements"
+      },
+      {
+        "step": 2,
+        "title": "System Design",
+        "description": "Create customized renewable energy solution"
+      },
+      {
+        "step": 3,
+        "title": "Installation",
+        "description": "Professional installation with quality components"
+      },
+      {
+        "step": 4,
+        "title": "Maintenance",
+        "description": "Ongoing monitoring and preventive maintenance"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "slug": "equipment-leasing",
+    "title": "Equipment Leasing",
+    "description": "Flexible equipment leasing solutions with well-maintained machinery for construction and industrial projects.",
+    "icon": "Truck",
+    "image": "/images/services/equipment-leasing.jpg",
+    "fullDescription": "Access quality construction equipment without the burden of ownership. Our fleet includes excavators, loaders, generators, and specialized machinery.",
+    "scope": [
+      "Heavy machinery leasing",
+      "Construction equipment rental",
+      "Industrial tools and equipment",
+      "Generator and power equipment",
+      "Material handling equipment",
+      "Specialized machinery"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Requirement Analysis",
+        "description": "Understand project needs and timeline"
+      },
+      {
+        "step": 2,
+        "title": "Equipment Selection",
+        "description": "Recommend optimal equipment for your project"
+      },
+      {
+        "step": 3,
+        "title": "Delivery & Setup",
+        "description": "Timely delivery and on-site setup"
+      },
+      {
+        "step": 4,
+        "title": "Support",
+        "description": "Ongoing technical support and maintenance"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "slug": "equipment-maintenance",
+    "title": "Plant and Equipment Maintenance",
+    "description": "Professional maintenance services to maximize equipment lifespan and minimize downtime.",
+    "icon": "Wrench",
+    "image": "/images/services/maintenance-new.jpg",
+    "fullDescription": "Our skilled technicians provide preventive and corrective maintenance for all types of construction plants and industrial equipment.",
+    "scope": [
+      "Preventive maintenance programs",
+      "Emergency repair services",
+      "Equipment diagnostics",
+      "Parts replacement and upgrades",
+      "Performance optimization",
+      "Maintenance documentation"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Inspection",
+        "description": "Comprehensive equipment assessment"
+      },
+      {
+        "step": 2,
+        "title": "Maintenance Plan",
+        "description": "Develop customized maintenance schedule"
+      },
+      {
+        "step": 3,
+        "title": "Service Execution",
+        "description": "Perform scheduled and corrective maintenance"
+      },
+      {
+        "step": 4,
+        "title": "Reporting",
+        "description": "Detailed documentation and recommendations"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "slug": "consultation",
+    "title": "Consultation",
+    "description": "Expert consulting services for engineering, construction, and project feasibility studies.",
+    "icon": "Users",
+    "image": "/images/services/consultation-new.jpg",
+    "fullDescription": "Leverage our industry expertise for strategic planning, technical consulting, and project optimization to make informed decisions.",
+    "scope": [
+      "Feasibility studies",
+      "Technical consulting",
+      "Engineering design review",
+      "Value engineering",
+      "HSE consulting",
+      "Regulatory compliance advisory"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Discovery",
+        "description": "Understand client needs and challenges"
+      },
+      {
+        "step": 2,
+        "title": "Analysis",
+        "description": "Conduct thorough research and evaluation"
+      },
+      {
+        "step": 3,
+        "title": "Recommendations",
+        "description": "Present findings and strategic solutions"
+      },
+      {
+        "step": 4,
+        "title": "Implementation Support",
+        "description": "Assist with execution of recommended solutions"
+      }
+    ]
+  }
+]
+
+
+
