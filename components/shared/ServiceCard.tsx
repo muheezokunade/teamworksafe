@@ -17,9 +17,6 @@ interface ServiceCardProps {
 export default function ServiceCard({ title, description, icon, image, href }: ServiceCardProps) {
   // @ts-ignore - Dynamic icon lookup
   const IconComponent = Icons[icon] as LucideIcon || Icons.Box;
-  
-  // Add cache-busting parameter to image URL
-  const imageUrl = `${image}?v=${Date.now()}`;
 
   return (
     <motion.div
@@ -30,7 +27,7 @@ export default function ServiceCard({ title, description, icon, image, href }: S
       <Link href={href} className="block bg-surface border border-border rounded-lg overflow-hidden hover:border-accent transition-colors h-full">
         <div className="relative h-48 overflow-hidden">
           <Image
-            src={imageUrl}
+            src={image}
             alt={title}
             fill
             className="object-cover group-hover:scale-110 transition-transform duration-300"

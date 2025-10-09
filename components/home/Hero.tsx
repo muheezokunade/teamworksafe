@@ -6,8 +6,6 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
-  const imageUrl = `/images/hero-construction.jpg?v=${Date.now()}`;
-  
   return (
     <section className="relative h-screen min-h-[600px] flex items-center overflow-hidden">
       {/* Background Image with Overlay */}
@@ -15,7 +13,7 @@ export default function Hero() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('${imageUrl}')`,
+            backgroundImage: "url('/images/hero-construction.jpg')",
           }}
         />
         <div className="absolute inset-0 bg-primary/55" />
