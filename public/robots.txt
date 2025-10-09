@@ -1,0 +1,6 @@
+# robots.txt for Teamwork Safe Operations Limited
+User-agent: *
+Allow: /
+
+Sitemap: https://teamworksafeoperations.com/sitemap.xml
+
