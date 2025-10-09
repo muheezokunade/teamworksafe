@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import SiteHeader from "@/components/layout/SiteHeader";
 import Footer from "@/components/layout/Footer";
 
@@ -49,14 +47,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${jakarta.variable}`}>
-      <body className="font-sans text-text antialiased bg-surface">
-        <SiteHeader />
-        <main>{children}</main>
-        <Footer />
-        <Analytics />
-        <SpeedInsights />
-      </body>
-    </html>
+        <html lang="en" className={`${inter.variable} ${jakarta.variable}`}>
+          <body className="font-sans text-text antialiased bg-surface">
+            <SiteHeader />
+            <main>{children}</main>
+            <Footer />
+          </body>
+        </html>
   );
 }
