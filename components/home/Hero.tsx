@@ -17,8 +17,36 @@ const heroImages = [
 
 export default function Hero() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [imagesLoaded, setImagesLoaded] = useState(false);
+
+  // Preload all images
+  useEffect(() => {
+    const preloadImages = () => {
+      const imagePromises = heroImages.map((src) => {
+        return new Promise((resolve, reject) => {
+          const img = new Image();
+          img.onload = resolve;
+          img.onerror = reject;
+          img.src = src;
+        });
+      });
+
+      Promise.all(imagePromises)
+        .then(() => {
+          setImagesLoaded(true);
+        })
+        .catch((error) => {
+          console.error('Error preloading images:', error);
+          setImagesLoaded(true); // Still show the slideshow even if some images fail
+        });
+    };
+
+    preloadImages();
+  }, []);
 
   useEffect(() => {
+    if (!imagesLoaded) return;
+
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => 
         prevIndex === heroImages.length - 1 ? 0 : prevIndex + 1
@@ -26,15 +54,17 @@ export default function Hero() {
     }, 5000); // Change image every 5 seconds
 
     return () => clearInterval(interval);
-  }, []);
+  }, [imagesLoaded]);
 
   const goToNext = () => {
+    if (!imagesLoaded) return;
     setCurrentImageIndex((prevIndex) => 
       prevIndex === heroImages.length - 1 ? 0 : prevIndex + 1
     );
   };
 
   const goToPrevious = () => {
+    if (!imagesLoaded) return;
     setCurrentImageIndex((prevIndex) => 
       prevIndex === 0 ? heroImages.length - 1 : prevIndex - 1
     );
@@ -44,24 +74,37 @@ export default function Hero() {
     <section className="relative h-screen min-h-[600px] flex items-center overflow-hidden">
       {/* Background Images Slideshow */}
       <div className="absolute inset-0 z-0">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={currentImageIndex}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 1 }}
-            className="absolute inset-0"
-          >
+        {imagesLoaded ? (
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={currentImageIndex}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.8, ease: "easeInOut" }}
+              className="absolute inset-0"
+            >
+              <Image
+                src={heroImages[currentImageIndex]}
+                alt={`Hero image ${currentImageIndex + 1}`}
+                fill
+                className="object-cover"
+                priority={currentImageIndex === 0}
+              />
+            </motion.div>
+          </AnimatePresence>
+        ) : (
+          // Show first image while loading
+          <div className="absolute inset-0">
             <Image
-              src={heroImages[currentImageIndex]}
-              alt={`Hero image ${currentImageIndex + 1}`}
+              src={heroImages[0]}
+              alt="Hero image"
               fill
               className="object-cover"
-              priority={currentImageIndex === 0}
+              priority
             />
-          </motion.div>
-        </AnimatePresence>
+          </div>
+        )}
         <div className="absolute inset-0 bg-primary/55" />
         
         {/* Navigation Arrows - Hidden on mobile for cleaner look */}
@@ -85,12 +128,13 @@ export default function Hero() {
           {heroImages.map((_, index) => (
             <button
               key={index}
-              onClick={() => setCurrentImageIndex(index)}
+              onClick={() => imagesLoaded && setCurrentImageIndex(index)}
+              disabled={!imagesLoaded}
               className={`w-3 h-3 rounded-full transition-all duration-200 ${
                 index === currentImageIndex
                   ? 'bg-white scale-110'
                   : 'bg-white/50 hover:bg-white/75'
-              }`}
+              } ${!imagesLoaded ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}`}
               aria-label={`Go to image ${index + 1}`}
             />
           ))}
