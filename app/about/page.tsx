@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 
 export const metadata: Metadata = {
   title: 'About Us',
-  description: 'Learn about Teamwork Safe Operations Limited - founded in 2009, delivering excellence in construction, project management, and renewable energy across Nigeria.',
+  description: 'Experts In Construction, Project Management, Renewable Energy, Equipment Leasing & Maintenance. Founded in 2009, incorporated in 2018.',
 };
 
 const timeline = [
@@ -58,9 +58,9 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="py-16 md:py-24 bg-primary text-surface">
         <div className="max-w-container mx-auto px-4 md:px-6">
-          <div className="max-w-3xl">
+          <div className="max-w-4xl">
             <h1 className="font-heading font-bold text-4xl md:text-5xl mb-6 leading-heading">
-              About Teamwork Safe Operations
+              Experts In Construction, Project Management, Renewable Energy, Equipment Leasing & Maintenance.
             </h1>
             <p className="text-lg md:text-xl leading-body text-surface/90">
               Teamwork Safe Operations Limited was founded in 2009 and officially incorporated as a 
@@ -89,20 +89,33 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-muted leading-body">
                 <p>
-                  With our head office in Lagos and a strategic branch in Port Harcourt, we deliver 
-                  General Construction, Project Management, Leasing and Maintenance of Construction 
-                  Plants and Equipment, and Renewable Energy Solutions.
+                  Built on the deep expertise of our founder and a team of forward-thinking professionals, 
+                  our company is driven by a shared commitment to excellence, innovation, and client success.
                 </p>
                 <p>
-                  Our team of experienced engineers, project managers, and technicians brings deep 
-                  expertise and a commitment to excellence in every project we undertake. We have 
-                  successfully completed over 236 projects across commercial, residential, industrial, 
-                  and energy sectors.
+                  With our head office in Lagos and a strategic branch in Port Harcourt, we proudly deliver 
+                  a comprehensive suite of high-impact services, including:
+                </p>
+                <ul className="list-disc list-inside space-y-2 ml-4">
+                  <li>General Construction (Buildings, Roads, Bridges, etc)</li>
+                  <li>Project Management</li>
+                  <li>Leasing & Maintenance of Construction Plants and Equipment</li>
+                  <li>Renewable Energy Solutions</li>
+                </ul>
+                <p>
+                  We serve a diverse clientele, from government institutions to private corporations, 
+                  providing tailored solutions that consistently exceed expectations and meet the highest 
+                  industry standards.
                 </p>
                 <p>
-                  We pride ourselves on our unwavering commitment to Health, Safety, and Environmental 
-                  (HSE) standards, ensuring that every project is executed with zero-harm principles 
-                  and sustainable practices.
+                  As we look ahead, we are actively expanding into major Nigerian cities, broadening our 
+                  reach, and reaffirming our position as the partner of choice for dependable, forward-thinking 
+                  infrastructure solutions.
+                </p>
+                <p>
+                  At Teamwork Safe Operations Limited, we don't just build infrastructure, we build trust, 
+                  partnerships, and a better future by empowering businesses and professionals to thrive in 
+                  a technology-driven world through cutting-edge services and transformative training.
                 </p>
               </div>
             </div>
