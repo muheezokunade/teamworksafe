@@ -93,7 +93,7 @@ export default function AboutPage() {
               }}>
                 Our Story
               </h2>
-              <div className="space-y-4 text-muted leading-body">
+              <div className="space-y-4 leading-body" style={{ color: 'rgb(177, 158, 119)' }}>
                 <p>
                   Built on the deep expertise of our founder and a team of forward-thinking professionals, 
                   our company is driven by a shared commitment to excellence, innovation, and client success.
