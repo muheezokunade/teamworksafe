@@ -118,45 +118,6 @@
   },
   {
     "id": "4",
-    "slug": "equipment-leasing",
-    "title": "Equipment Leasing",
-    "description": "Flexible equipment leasing solutions with well-maintained machinery for construction and industrial projects.",
-    "icon": "Truck",
-    "image": "/images/services/equipment-leasing.jpg",
-    "fullDescription": "Access quality construction equipment without the burden of ownership. Our fleet includes excavators, loaders, generators, and specialized machinery.",
-    "scope": [
-      "Heavy machinery leasing",
-      "Construction equipment rental",
-      "Industrial tools and equipment",
-      "Generator and power equipment",
-      "Material handling equipment",
-      "Specialized machinery"
-    ],
-    "process": [
-      {
-        "step": 1,
-        "title": "Requirement Analysis",
-        "description": "Understand project needs and timeline"
-      },
-      {
-        "step": 2,
-        "title": "Equipment Selection",
-        "description": "Recommend optimal equipment for your project"
-      },
-      {
-        "step": 3,
-        "title": "Delivery & Setup",
-        "description": "Timely delivery and on-site setup"
-      },
-      {
-        "step": 4,
-        "title": "Support",
-        "description": "Ongoing technical support and maintenance"
-      }
-    ]
-  },
-  {
-    "id": "5",
     "slug": "equipment-maintenance",
     "title": "Plant and Equipment Maintenance",
     "description": "Professional maintenance services to maximize equipment lifespan and minimize downtime.",
@@ -195,7 +156,7 @@
     ]
   },
   {
-    "id": "6",
+    "id": "5",
     "slug": "consultation",
     "title": "Consultation",
     "description": "Expert consulting services for engineering, construction, and project feasibility studies.",

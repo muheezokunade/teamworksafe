@@ -11,8 +11,8 @@ import servicesData from '@/data/services.json';
 
 const navItems = [
   { label: 'Home', href: '/' },
-  { 
-    label: 'Company', 
+  {
+    label: 'Company',
     href: '/about',
     hasDropdown: true,
     subItems: [
@@ -23,16 +23,6 @@ const navItems = [
   },
   { label: 'Services', href: '/services', hasMenu: true },
   { label: 'Projects', href: '/projects' },
-  { label: 'Equipment', href: '/equipment' },
-  { 
-    label: 'Resources', 
-    href: '/blog',
-    hasDropdown: true,
-    subItems: [
-      { label: 'Careers', href: '/careers' },
-      { label: 'Blog & News', href: '/blog' },
-    ]
-  },
   { label: 'Contact', href: '/contact' },
 ];
 
