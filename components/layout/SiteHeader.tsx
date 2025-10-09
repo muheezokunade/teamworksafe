@@ -17,7 +17,6 @@ const navItems = [
     hasDropdown: true,
     subItems: [
       { label: 'About Us', href: '/about' },
-      { label: 'Our Clients', href: '/clients' },
       { label: 'HSE Policy', href: '/hse' },
     ]
   },
