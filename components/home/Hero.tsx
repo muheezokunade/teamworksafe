@@ -73,15 +73,27 @@ export default function Hero() {
   return (
     <section className="relative h-screen min-h-[600px] flex items-center overflow-hidden">
       {/* Background Images Slideshow */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 bg-gray-900">
+        {/* Background layer - always visible */}
+        <div className="absolute inset-0">
+          <Image
+            src={heroImages[0]}
+            alt="Background"
+            fill
+            className="object-cover opacity-30"
+            priority
+          />
+        </div>
+        
+        {/* Crossfade slideshow layer */}
         {imagesLoaded ? (
-          <AnimatePresence mode="wait">
+          <AnimatePresence initial={false} mode="sync">
             <motion.div
               key={currentImageIndex}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              transition={{ duration: 0.8, ease: "easeInOut" }}
+              transition={{ duration: 1.2, ease: "easeInOut" }}
               className="absolute inset-0"
             >
               <Image
@@ -105,26 +117,26 @@ export default function Hero() {
             />
           </div>
         )}
-        <div className="absolute inset-0 bg-primary/55" />
+        <div className="absolute inset-0 bg-primary/55 z-10" />
         
         {/* Navigation Arrows - Hidden on mobile for cleaner look */}
         <button
           onClick={goToPrevious}
-          className="absolute left-4 top-1/2 -translate-y-1/2 z-10 p-2 bg-black/20 hover:bg-black/40 text-white rounded-full transition-all duration-200 backdrop-blur-sm hidden sm:block"
+          className="absolute left-4 top-1/2 -translate-y-1/2 z-20 p-2 bg-black/20 hover:bg-black/40 text-white rounded-full transition-all duration-200 backdrop-blur-sm hidden sm:block"
           aria-label="Previous image"
         >
           <ChevronLeft className="w-6 h-6" />
         </button>
         <button
           onClick={goToNext}
-          className="absolute right-4 top-1/2 -translate-y-1/2 z-10 p-2 bg-black/20 hover:bg-black/40 text-white rounded-full transition-all duration-200 backdrop-blur-sm hidden sm:block"
+          className="absolute right-4 top-1/2 -translate-y-1/2 z-20 p-2 bg-black/20 hover:bg-black/40 text-white rounded-full transition-all duration-200 backdrop-blur-sm hidden sm:block"
           aria-label="Next image"
         >
           <ChevronRight className="w-6 h-6" />
         </button>
 
         {/* Dots Indicator */}
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 flex space-x-2">
+        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex space-x-2">
           {heroImages.map((_, index) => (
             <button
               key={index}
