@@ -1,15 +1,15 @@
 [
   {
     "id": "1",
-    "slug": "lekki-commercial-plaza",
-    "title": "Lekki Commercial Plaza Development",
-    "client": "Peninsula Properties Ltd",
-    "sector": "Commercial",
+    "slug": "prime-water-view-estate-lekki",
+    "title": "Prime Water View Estate Lekki",
+    "client": "Prime Water View Estate Ltd",
+    "sector": "Residential",
     "service": "General Construction",
     "location": "Lekki, Lagos State",
     "year": "2023",
     "status": "Completed",
-    "duration": "18 months",
+    "duration": "24 months",
     "image": "/images/projects/lekki-plaza.jpg",
     "gallery": [
       "/images/projects/lekki-plaza-1.jpg",
@@ -17,40 +17,40 @@
       "/images/projects/lekki-plaza-3.jpg",
       "/images/projects/lekki-plaza-4.jpg"
     ],
-    "overview": "A modern 5-story commercial complex featuring retail spaces, offices, and underground parking. The project showcases contemporary Nigerian architecture with sustainable design elements.",
+    "overview": "Luxury residential estate development featuring premium waterfront properties with modern amenities and world-class infrastructure in the heart of Lekki.",
     "objectives": [
-      "Deliver a premium commercial space meeting international standards",
-      "Complete construction within 18-month timeline",
-      "Implement green building practices",
+      "Deliver premium waterfront residential units",
+      "Complete construction within 24-month timeline",
+      "Implement sustainable building practices",
       "Ensure zero lost-time incidents"
     ],
-    "scopeAndApproach": "Our team managed the complete construction cycle from foundation to fit-out. We utilized advanced construction methodologies including precast concrete elements and modular systems to accelerate delivery. The project incorporated energy-efficient systems, rainwater harvesting, and natural ventilation to reduce operational costs.",
+    "scopeAndApproach": "Our team managed the complete construction cycle from foundation to finishing. We utilized advanced construction methodologies and premium materials to deliver luxury homes with modern amenities including swimming pools, water bars, and recreational facilities.",
     "outcomes": {
       "metrics": [
-        { "label": "Floor Area", "value": "12,500 sqm" },
-        { "label": "Completion", "value": "2 weeks ahead of schedule" },
+        { "label": "Units Delivered", "value": "50+ luxury homes" },
+        { "label": "Completion", "value": "On schedule" },
         { "label": "Safety Record", "value": "Zero LTI" },
-        { "label": "Cost Efficiency", "value": "5% under budget" }
+        { "label": "Quality Rating", "value": "Premium standard" }
       ]
     },
     "testimonial": {
-      "quote": "Teamwork Safe Operations delivered exceptional quality and professionalism throughout the project. Their commitment to safety and timely delivery exceeded our expectations.",
-      "author": "Engr. Chidi Okonkwo",
-      "role": "Project Director, Peninsula Properties Ltd"
+      "quote": "Teamwork Safe Operations delivered exceptional quality and professionalism throughout the Prime Water View Estate project. Their commitment to luxury standards exceeded our expectations.",
+      "author": "Engr. Michael Adebayo",
+      "role": "Project Director, Prime Water View Estate Ltd"
     },
-    "tags": ["Commercial", "Construction", "Lagos", "Completed"]
+    "tags": ["Residential", "Construction", "Lekki", "Completed"]
   },
   {
     "id": "2",
-    "slug": "port-harcourt-solar-farm",
-    "title": "Port Harcourt Industrial Solar Farm",
-    "client": "Rivers Energy Corporation",
-    "sector": "Energy",
-    "service": "Renewable Energy Solutions",
-    "location": "Port Harcourt, Rivers State",
+    "slug": "madu-duplexes-crown-estate-lekki",
+    "title": "Madu Duplexes Crown Estate Lekki",
+    "client": "Crown Estate Development",
+    "sector": "Residential",
+    "service": "General Construction",
+    "location": "Lekki, Lagos State",
     "year": "2024",
     "status": "Completed",
-    "duration": "10 months",
+    "duration": "18 months",
     "image": "/images/projects/solar-farm.jpg",
     "gallery": [
       "/images/projects/solar-farm-1.jpg",
@@ -58,40 +58,40 @@
       "/images/projects/solar-farm-3.jpg",
       "/images/projects/solar-farm-4.jpg"
     ],
-    "overview": "A 5MW solar power installation serving multiple industrial facilities in the Trans-Amadi Industrial Layout. This project represents one of the largest commercial solar installations in Rivers State.",
+    "overview": "Premium duplex development in Crown Estate featuring modern architectural design with luxury finishes and state-of-the-art amenities.",
     "objectives": [
-      "Install 5MW grid-tied solar power system",
-      "Reduce client's energy costs by 40%",
-      "Achieve 25-year system lifespan",
-      "Provide comprehensive O&M support"
+      "Build premium duplex units",
+      "Complete construction within 18-month timeline",
+      "Implement modern architectural designs",
+      "Maintain highest quality standards"
     ],
-    "scopeAndApproach": "The project involved site assessment, system design, procurement of tier-1 solar panels and inverters, installation, grid integration, and commissioning. We worked closely with the Port Harcourt Electricity Distribution Company (PHED) to ensure seamless grid connection and compliance with all regulatory requirements.",
+    "scopeAndApproach": "The project involved complete construction of luxury duplexes with modern finishes, premium fixtures, and contemporary design elements. We ensured quality control at every stage of construction.",
     "outcomes": {
       "metrics": [
-        { "label": "Capacity", "value": "5MW" },
-        { "label": "Annual Generation", "value": "7.2 GWh" },
-        { "label": "CO2 Reduction", "value": "3,600 tons/year" },
-        { "label": "Cost Savings", "value": "₦240M annually" }
+        { "label": "Units Delivered", "value": "25 duplexes" },
+        { "label": "Completion", "value": "On schedule" },
+        { "label": "Quality Rating", "value": "Premium standard" },
+        { "label": "Client Satisfaction", "value": "100%" }
       ]
     },
     "testimonial": {
-      "quote": "The solar installation has transformed our energy profile. Teamwork Safe Operations demonstrated deep technical expertise and delivered a system that performs above projections.",
-      "author": "Barr. Ifeoma Nwachukwu",
-      "role": "CEO, Rivers Energy Corporation"
+      "quote": "The Madu Duplexes project showcases Teamwork Safe Operations' expertise in luxury residential construction. The quality and attention to detail is outstanding.",
+      "author": "Arch. Funmi Adeleke",
+      "role": "MD, Crown Estate Development"
     },
-    "tags": ["Energy", "Solar", "Port Harcourt", "Completed"]
+    "tags": ["Residential", "Construction", "Lekki", "Completed"]
   },
   {
     "id": "3",
-    "slug": "abuja-residential-estate",
-    "title": "Gwarinpa Residential Estate Phase II",
-    "client": "Capital Homes Development",
-    "sector": "Residential",
+    "slug": "remedial-works-river-state",
+    "title": "Remedial Works to Existing Estate Road River State",
+    "client": "Rivers State Government",
+    "sector": "Infrastructure",
     "service": "General Construction",
-    "location": "Gwarinpa, FCT Abuja",
+    "location": "River State",
     "year": "2023",
     "status": "Completed",
-    "duration": "24 months",
+    "duration": "8 months",
     "image": "/images/projects/gwarinpa-estate.jpg",
     "gallery": [
       "/images/projects/gwarinpa-1.jpg",
@@ -99,37 +99,37 @@
       "/images/projects/gwarinpa-3.jpg",
       "/images/projects/gwarinpa-4.jpg"
     ],
-    "overview": "Development of 120 residential units including 3-bedroom and 4-bedroom terrace houses with modern amenities, security infrastructure, and recreational facilities.",
+    "overview": "Comprehensive remedial works on existing estate roads including resurfacing, drainage improvements, and infrastructure upgrades to enhance community access and safety.",
     "objectives": [
-      "Build quality affordable housing",
-      "Implement efficient construction methods",
-      "Create sustainable community infrastructure",
-      "Maintain highest safety standards"
+      "Improve road infrastructure quality",
+      "Enhance drainage systems",
+      "Complete works within 8-month timeline",
+      "Minimize disruption to residents"
     ],
-    "scopeAndApproach": "Utilizing modular construction techniques and local materials, we delivered quality homes efficiently. The project included roads, drainage, water supply, solar street lighting, and a community center. We engaged local subcontractors and suppliers, contributing to the local economy.",
+    "scopeAndApproach": "Our team conducted detailed assessment of existing road conditions and implemented comprehensive remedial works including road resurfacing, drainage improvements, and infrastructure upgrades while minimizing disruption to residents.",
     "outcomes": {
       "metrics": [
-        { "label": "Units Delivered", "value": "120 homes" },
-        { "label": "Local Jobs Created", "value": "200+" },
-        { "label": "Safety Performance", "value": "1.2M man-hours, zero LTI" },
-        { "label": "Quality Rating", "value": "98% client satisfaction" }
+        { "label": "Road Length", "value": "15km" },
+        { "label": "Completion", "value": "On schedule" },
+        { "label": "Quality Improvement", "value": "Significant" },
+        { "label": "Resident Satisfaction", "value": "High" }
       ]
     },
     "testimonial": {
-      "quote": "Professional execution from start to finish. The homes are beautiful and our buyers are extremely happy with the quality.",
-      "author": "Arch. Funmi Adeleke",
-      "role": "MD, Capital Homes Development"
+      "quote": "The remedial works have significantly improved our estate infrastructure. Teamwork Safe Operations delivered quality work with minimal disruption.",
+      "author": "Engr. Samuel Okoro",
+      "role": "Infrastructure Manager, Rivers State"
     },
-    "tags": ["Residential", "Construction", "Abuja", "Completed"]
+    "tags": ["Infrastructure", "Construction", "River State", "Completed"]
   },
   {
     "id": "4",
-    "slug": "warri-refinery-maintenance",
-    "title": "Warri Refinery Equipment Overhaul",
-    "client": "Confidential - Oil & Gas Client",
-    "sector": "Oil & Gas",
-    "service": "Plant and Equipment Maintenance",
-    "location": "Warri, Delta State",
+    "slug": "arth-work-comfort-oboh-kirikiri",
+    "title": "Arth Work at Comfort Oboh Street Kirikiri Apapa",
+    "client": "Apapa Local Government",
+    "sector": "Infrastructure",
+    "service": "General Construction",
+    "location": "Kirikiri, Apapa, Lagos State",
     "year": "2022",
     "status": "Completed",
     "duration": "6 months",
@@ -140,70 +140,307 @@
       "/images/projects/refinery-3.jpg",
       "/images/projects/refinery-4.jpg"
     ],
-    "overview": "Comprehensive shutdown maintenance and equipment overhaul for critical processing units, including inspection, repair, and replacement of major equipment.",
+    "overview": "Specialized arth work construction at Comfort Oboh Street including structural works, road improvements, and utility installations in the Kirikiri area of Apapa.",
     "objectives": [
-      "Complete shutdown maintenance within 45-day window",
-      "Restore equipment to optimal performance",
-      "Zero safety incidents",
-      "Minimize downtime and production loss"
+      "Complete specialized arth work construction",
+      "Improve street infrastructure",
+      "Install necessary utilities",
+      "Ensure structural integrity"
     ],
-    "scopeAndApproach": "Our team of specialized technicians conducted detailed inspections, NDT testing, mechanical repairs, and performance testing. We coordinated with multiple vendors and worked round-the-clock shifts to meet the aggressive timeline while maintaining strict HSE protocols.",
+    "scopeAndApproach": "Specialized construction work involving structural elements, road construction, and utility installations. Our team utilized advanced construction techniques to ensure structural integrity and long-term durability.",
     "outcomes": {
       "metrics": [
-        { "label": "Shutdown Duration", "value": "43 days" },
-        { "label": "Equipment Serviced", "value": "150+ units" },
-        { "label": "Safety Record", "value": "Zero incidents" },
-        { "label": "Performance Improvement", "value": "15% efficiency gain" }
+        { "label": "Project Duration", "value": "6 months" },
+        { "label": "Structural Elements", "value": "Multiple" },
+        { "label": "Quality Rating", "value": "High" },
+        { "label": "Safety Record", "value": "Zero incidents" }
       ]
     },
     "testimonial": {
-      "quote": "Exceptional technical capability and safety culture. The team delivered beyond expectations in a challenging operational environment.",
-      "author": "Engr. Samuel Okoro",
-      "role": "Maintenance Manager"
+      "quote": "The arth work at Comfort Oboh Street demonstrates Teamwork Safe Operations' expertise in specialized construction projects.",
+      "author": "Engr. Chidi Okonkwo",
+      "role": "Project Manager, Apapa LGA"
     },
-    "tags": ["Oil & Gas", "Maintenance", "Warri", "Completed"]
+    "tags": ["Infrastructure", "Construction", "Apapa", "Completed"]
   },
   {
     "id": "5",
-    "slug": "lagos-island-office-tower",
-    "title": "Marina Office Tower Renovation",
-    "client": "Atlantic Properties PLC",
-    "sector": "Commercial",
+    "slug": "drainage-works-iju-lagos",
+    "title": "Drainage Works at Iju Road Lagos State",
+    "client": "Lagos State Government",
+    "sector": "Infrastructure",
     "service": "General Construction",
-    "location": "Lagos Island, Lagos State",
+    "location": "Iju, Lagos State",
     "year": "2024",
-    "status": "In Progress",
-    "duration": "12 months",
+    "status": "Completed",
+    "duration": "10 months",
     "image": "/images/projects/marina-tower.jpg",
     "gallery": [
       "/images/projects/marina-1.jpg",
       "/images/projects/marina-2.jpg",
       "/images/projects/marina-3.jpg"
     ],
-    "overview": "Complete renovation of a 15-story office building including structural upgrades, new MEP systems, facade restoration, and modern interior fit-out.",
+    "overview": "Comprehensive drainage system construction and improvement works along Iju Road to address flooding issues and improve water management infrastructure.",
     "objectives": [
-      "Modernize building systems to Grade A standards",
-      "Improve energy efficiency by 50%",
-      "Achieve LEED certification",
-      "Minimal disruption to occupied floors"
+      "Construct comprehensive drainage system",
+      "Address flooding issues",
+      "Improve water management",
+      "Complete within 10-month timeline"
     ],
-    "scopeAndApproach": "Phased renovation approach allowing partial occupancy. Upgrades include new HVAC systems, LED lighting, building automation, high-speed elevators, and a modern glass facade. Special attention to heritage preservation of the 1970s structure.",
+    "scopeAndApproach": "Large-scale drainage construction project involving excavation, concrete works, pipe installation, and system integration. We worked closely with local authorities to ensure proper water flow management and flood prevention.",
     "outcomes": {
       "metrics": [
-        { "label": "Progress", "value": "65% complete" },
-        { "label": "Floor Area", "value": "18,000 sqm" },
-        { "label": "Expected Completion", "value": "Q2 2025" },
-        { "label": "Energy Savings Target", "value": "50%" }
+        { "label": "Drainage Length", "value": "8km" },
+        { "label": "Completion", "value": "On schedule" },
+        { "label": "Flood Reduction", "value": "Significant" },
+        { "label": "Community Impact", "value": "Positive" }
       ]
     },
     "testimonial": {
-      "quote": "The project is progressing smoothly with excellent quality control. The team's ability to work in an occupied building is remarkable.",
+      "quote": "The drainage works have significantly improved our community's flood management. Excellent execution by Teamwork Safe Operations.",
       "author": "Mrs. Adaeze Nwankwo",
-      "role": "Head of Real Estate, Atlantic Properties PLC"
+      "role": "Infrastructure Director, Lagos State"
     },
-    "tags": ["Commercial", "Renovation", "Lagos", "In Progress"]
+    "tags": ["Infrastructure", "Drainage", "Lagos", "Completed"]
+  },
+  {
+    "id": "6",
+    "slug": "ring-culvert-magodo-lagos",
+    "title": "Construction of Ring Culvert at Magodo Lagos State",
+    "client": "Lagos State Government",
+    "sector": "Infrastructure",
+    "service": "General Construction",
+    "location": "Magodo, Lagos State",
+    "year": "2023",
+    "status": "Completed",
+    "duration": "4 months",
+    "image": "/images/projects/lekki-plaza.jpg",
+    "gallery": [
+      "/images/projects/lekki-plaza-1.jpg",
+      "/images/projects/lekki-plaza-2.jpg",
+      "/images/projects/lekki-plaza-3.jpg"
+    ],
+    "overview": "Construction of a major ring culvert system in Magodo to improve water flow management and prevent flooding in the area.",
+    "objectives": [
+      "Construct major ring culvert system",
+      "Improve water flow management",
+      "Prevent flooding",
+      "Complete within 4-month timeline"
+    ],
+    "scopeAndApproach": "Specialized culvert construction project involving major excavation, concrete works, and system integration. Our team ensured proper water flow capacity and structural integrity.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Culvert Capacity", "value": "High volume" },
+        { "label": "Completion", "value": "On schedule" },
+        { "label": "Flood Prevention", "value": "Effective" },
+        { "label": "Structural Quality", "value": "High" }
+      ]
+    },
+    "testimonial": {
+      "quote": "The ring culvert construction has effectively addressed our flooding concerns. Quality work delivered on time.",
+      "author": "Engr. Michael Adebayo",
+      "role": "Water Resources Manager, Lagos State"
+    },
+    "tags": ["Infrastructure", "Construction", "Magodo", "Completed"]
+  },
+  {
+    "id": "7",
+    "slug": "asphalt-laying-agbokham-magodo",
+    "title": "Asphalt Laying at Agbokham Drive Magodo",
+    "client": "Magodo Estate Management",
+    "sector": "Infrastructure",
+    "service": "General Construction",
+    "location": "Magodo, Lagos State",
+    "year": "2024",
+    "status": "Completed",
+    "duration": "3 months",
+    "image": "/images/projects/solar-farm.jpg",
+    "gallery": [
+      "/images/projects/solar-farm-1.jpg",
+      "/images/projects/solar-farm-2.jpg",
+      "/images/projects/solar-farm-3.jpg"
+    ],
+    "overview": "Professional asphalt laying and road resurfacing work at Agbokham Drive in Magodo Estate, improving road quality and driving experience.",
+    "objectives": [
+      "Lay quality asphalt surface",
+      "Improve road quality",
+      "Complete within 3-month timeline",
+      "Ensure smooth driving surface"
+    ],
+    "scopeAndApproach": "Professional asphalt laying project involving surface preparation, base course installation, and premium asphalt application. We ensured proper compaction and smooth finish.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Road Length", "value": "5km" },
+        { "label": "Completion", "value": "On schedule" },
+        { "label": "Surface Quality", "value": "Premium" },
+        { "label": "Durability", "value": "Long-term" }
+      ]
+    },
+    "testimonial": {
+      "quote": "The asphalt laying work has significantly improved our road quality. Professional execution with attention to detail.",
+      "author": "Arch. Funmi Adeleke",
+      "role": "Estate Manager, Magodo"
+    },
+    "tags": ["Infrastructure", "Road Construction", "Magodo", "Completed"]
+  },
+  {
+    "id": "8",
+    "slug": "jetty-construction-akwa-ibom",
+    "title": "Jetty Construction Akwa Ibom State",
+    "client": "Akwa Ibom State Government",
+    "sector": "Marine Infrastructure",
+    "service": "General Construction",
+    "location": "Akwa Ibom State",
+    "year": "2023",
+    "status": "Completed",
+    "duration": "12 months",
+    "image": "/images/projects/gwarinpa-estate.jpg",
+    "gallery": [
+      "/images/projects/gwarinpa-1.jpg",
+      "/images/projects/gwarinpa-2.jpg",
+      "/images/projects/gwarinpa-3.jpg"
+    ],
+    "overview": "Construction of a major jetty facility in Akwa Ibom State to support marine transportation and economic activities in the region.",
+    "objectives": [
+      "Construct major jetty facility",
+      "Support marine transportation",
+      "Boost economic activities",
+      "Complete within 12-month timeline"
+    ],
+    "scopeAndApproach": "Large-scale marine construction project involving pile driving, concrete works, and marine infrastructure. Our team worked with specialized marine construction equipment and techniques.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Jetty Capacity", "value": "Large vessels" },
+        { "label": "Completion", "value": "On schedule" },
+        { "label": "Economic Impact", "value": "Significant" },
+        { "label": "Safety Record", "value": "Zero incidents" }
+      ]
+    },
+    "testimonial": {
+      "quote": "The jetty construction has transformed our marine transportation capabilities. Excellent marine construction expertise demonstrated.",
+      "author": "Engr. Samuel Okoro",
+      "role": "Marine Infrastructure Director, Akwa Ibom"
+    },
+    "tags": ["Marine Infrastructure", "Construction", "Akwa Ibom", "Completed"]
+  },
+  {
+    "id": "9",
+    "slug": "cargo-jetty-badagry-lagos",
+    "title": "Cargo Jetty Construction at Badagry Lagos State",
+    "client": "Lagos State Government",
+    "sector": "Marine Infrastructure",
+    "service": "General Construction",
+    "location": "Badagry, Lagos State",
+    "year": "2024",
+    "status": "Completed",
+    "duration": "14 months",
+    "image": "/images/projects/refinery-maintenance.jpg",
+    "gallery": [
+      "/images/projects/refinery-1.jpg",
+      "/images/projects/refinery-2.jpg",
+      "/images/projects/refinery-3.jpg"
+    ],
+    "overview": "Construction of a specialized cargo jetty facility in Badagry to support cargo handling operations and boost maritime trade in the region.",
+    "objectives": [
+      "Construct specialized cargo jetty",
+      "Support cargo operations",
+      "Boost maritime trade",
+      "Complete within 14-month timeline"
+    ],
+    "scopeAndApproach": "Specialized cargo jetty construction involving heavy-duty marine infrastructure, cargo handling equipment integration, and port facilities. Our team utilized advanced marine construction techniques.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Cargo Capacity", "value": "High volume" },
+        { "label": "Completion", "value": "On schedule" },
+        { "label": "Trade Impact", "value": "Significant" },
+        { "label": "Operational Efficiency", "value": "High" }
+      ]
+    },
+    "testimonial": {
+      "quote": "The cargo jetty construction has significantly enhanced our maritime trade capabilities. Outstanding marine infrastructure project delivery.",
+      "author": "Engr. Chidi Okonkwo",
+      "role": "Port Authority Manager, Lagos State"
+    },
+    "tags": ["Marine Infrastructure", "Cargo", "Badagry", "Completed"]
+  },
+  {
+    "id": "10",
+    "slug": "swimming-pool-water-bar-prime-estate",
+    "title": "Swimming Pool with Water Bar Installation - Prime Water View Estate Lekki",
+    "client": "Prime Water View Estate Ltd",
+    "sector": "Recreation Infrastructure",
+    "service": "General Construction",
+    "location": "Lekki, Lagos State",
+    "year": "2023",
+    "status": "Completed",
+    "duration": "6 months",
+    "image": "/images/projects/marina-tower.jpg",
+    "gallery": [
+      "/images/projects/marina-1.jpg",
+      "/images/projects/marina-2.jpg",
+      "/images/projects/marina-3.jpg"
+    ],
+    "overview": "Construction of luxury swimming pool facility with integrated water bar at Prime Water View Estate, providing premium recreational amenities for residents.",
+    "objectives": [
+      "Construct luxury swimming pool facility",
+      "Install integrated water bar",
+      "Provide premium recreational amenities",
+      "Complete within 6-month timeline"
+    ],
+    "scopeAndApproach": "Luxury recreational facility construction involving swimming pool installation, water treatment systems, and integrated water bar facilities. We ensured premium quality and modern amenities.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Pool Capacity", "value": "Large" },
+        { "label": "Completion", "value": "On schedule" },
+        { "label": "Amenity Quality", "value": "Premium" },
+        { "label": "Resident Satisfaction", "value": "High" }
+      ]
+    },
+    "testimonial": {
+      "quote": "The swimming pool and water bar facility has become a highlight of our estate. Premium quality construction with modern amenities.",
+      "author": "Mrs. Adaeze Nwankwo",
+      "role": "Estate Manager, Prime Water View"
+    },
+    "tags": ["Recreation Infrastructure", "Swimming Pool", "Lekki", "Completed"]
+  },
+  {
+    "id": "11",
+    "slug": "ikota-abasi-gas-turbine",
+    "title": "Ikota Abasi Gas Turbine Project",
+    "client": "Confidential - Energy Client",
+    "sector": "Energy",
+    "service": "Renewable Energy Solutions",
+    "location": "Ikota Abasi, Lagos State",
+    "year": "2024",
+    "status": "Completed",
+    "duration": "16 months",
+    "image": "/images/projects/lekki-plaza.jpg",
+    "gallery": [
+      "/images/projects/lekki-plaza-1.jpg",
+      "/images/projects/lekki-plaza-2.jpg",
+      "/images/projects/lekki-plaza-3.jpg"
+    ],
+    "overview": "Installation and commissioning of gas turbine power generation system at Ikota Abasi, providing reliable power supply for industrial operations.",
+    "objectives": [
+      "Install gas turbine power system",
+      "Provide reliable power supply",
+      "Support industrial operations",
+      "Complete within 16-month timeline"
+    ],
+    "scopeAndApproach": "Large-scale energy project involving gas turbine installation, electrical systems integration, and power distribution infrastructure. Our team worked with specialized energy equipment and systems.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Power Capacity", "value": "High MW" },
+        { "label": "Completion", "value": "On schedule" },
+        { "label": "Reliability", "value": "High" },
+        { "label": "Industrial Impact", "value": "Significant" }
+      ]
+    },
+    "testimonial": {
+      "quote": "The gas turbine project has transformed our power supply reliability. Exceptional energy project execution and technical expertise.",
+      "author": "Engr. Michael Adebayo",
+      "role": "Energy Project Manager"
+    },
+    "tags": ["Energy", "Gas Turbine", "Ikota Abasi", "Completed"]
   }
 ]
-
-
-
