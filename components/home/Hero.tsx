@@ -23,9 +23,9 @@ export default function Hero() {
   useEffect(() => {
     const preloadImages = () => {
       const imagePromises = heroImages.map((src) => {
-        return new Promise((resolve, reject) => {
-          const img = new Image();
-          img.onload = resolve;
+        return new Promise<HTMLImageElement>((resolve, reject) => {
+          const img = new window.Image();
+          img.onload = () => resolve(img);
           img.onerror = reject;
           img.src = src;
         });
