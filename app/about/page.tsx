@@ -84,7 +84,13 @@ export default function AboutPage() {
               />
             </div>
             <div>
-              <h2 className="font-heading font-bold text-3xl md:text-4xl text-text mb-6 leading-heading">
+              <h2 className="font-heading font-bold text-4xl mb-6 leading-tight" style={{
+                fontFamily: '__Plus_Jakarta_Sans_646807, __Plus_Jakarta_Sans_Fallback_646807, system-ui, sans-serif',
+                fontSize: '36px',
+                fontWeight: 700,
+                lineHeight: '40px',
+                color: 'rgb(177, 158, 119)'
+              }}>
                 Our Story
               </h2>
               <div className="space-y-4 text-muted leading-body">
