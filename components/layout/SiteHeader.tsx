@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetDescription } from '@/components/ui/sheet';
 import servicesData from '@/data/services.json';
 
 const navItems = [
@@ -198,6 +198,10 @@ export default function SiteHeader() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+              <SheetTitle className="sr-only">Mobile Navigation Menu</SheetTitle>
+              <SheetDescription className="sr-only">
+                Navigate to different sections of the website
+              </SheetDescription>
               <nav className="flex flex-col space-y-4 mt-8" role="navigation" aria-label="Mobile navigation">
                 {navItems.map((item) => (
                   <div key={item.label}>
