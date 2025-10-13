@@ -170,10 +170,16 @@ export default function About() {
           <div className="max-w-5xl mx-auto">
             <div className="bg-gradient-to-br from-blue-50 to-white border border-blue-100 rounded-xl p-8 md:p-12">
               <div className="grid md:grid-cols-3 gap-8">
-                {/* Photo placeholder */}
+                {/* Director Photo */}
                 <div className="md:col-span-1">
-                  <div className="relative w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-blue-600 to-blue-400 flex items-center justify-center">
-                    <div className="text-white text-6xl font-bold">NO</div>
+                  <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-blue-200">
+                    <Image
+                      src="https://i.postimg.cc/pdTkHpcG/Gemini-Generated-Image-muhoo1muhoo1muho.png"
+                      alt="Nweke Okechukwu - Managing Director"
+                      fill
+                      className="object-cover"
+                      priority
+                    />
                   </div>
                 </div>
                 
