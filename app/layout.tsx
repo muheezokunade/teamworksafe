@@ -46,8 +46,119 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Teamwork Safe Operations Limited",
+    "alternateName": "Teamwork Safe Operations",
+    "url": "https://teamworksafeoperations.com",
+    "logo": "https://teamworksafeoperations.com/logo.png",
+    "description": "Leading construction, project management, equipment leasing and renewable energy company in Nigeria since 2009",
+    "foundingDate": "2009",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+234-XXX-XXXX-XXX",
+      "contactType": "customer service",
+      "areaServed": "NG",
+      "availableLanguage": ["en", "yo", "ig", "ha"]
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/teamwork-safe-operations",
+      "https://www.facebook.com/teamworksafeoperations",
+      "https://www.instagram.com/teamworksafeoperations"
+    ],
+    "address": [
+      {
+        "@type": "PostalAddress",
+        "addressLocality": "Lagos",
+        "addressRegion": "Lagos State",
+        "addressCountry": "NG"
+      },
+      {
+        "@type": "PostalAddress",
+        "addressLocality": "Port Harcourt",
+        "addressRegion": "Rivers State",
+        "addressCountry": "NG"
+      }
+    ]
+  };
+
+  const lagosBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://teamworksafeoperations.com/#lagos-office",
+    "name": "Teamwork Safe Operations Limited - Lagos Office",
+    "image": "https://teamworksafeoperations.com/logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lagos",
+      "addressRegion": "Lagos State",
+      "addressCountry": "NG"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "6.5244",
+      "longitude": "3.3792"
+    },
+    "url": "https://teamworksafeoperations.com",
+    "telephone": "+234-XXX-XXXX-XXX",
+    "priceRange": "$$",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "17:00"
+      }
+    ]
+  };
+
+  const phBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://teamworksafeoperations.com/#ph-office",
+    "name": "Teamwork Safe Operations Limited - Port Harcourt Office",
+    "image": "https://teamworksafeoperations.com/logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Port Harcourt",
+      "addressRegion": "Rivers State",
+      "addressCountry": "NG"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "4.8156",
+      "longitude": "7.0498"
+    },
+    "url": "https://teamworksafeoperations.com",
+    "telephone": "+234-XXX-XXXX-XXX",
+    "priceRange": "$$",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "17:00"
+      }
+    ]
+  };
+
   return (
         <html lang="en" className={`${inter.variable} ${jakarta.variable}`}>
+          <head>
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+            />
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{ __html: JSON.stringify(lagosBusinessSchema) }}
+            />
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{ __html: JSON.stringify(phBusinessSchema) }}
+            />
+          </head>
           <body className="font-sans text-text antialiased bg-surface">
             <SiteHeader />
             <main>{children}</main>
