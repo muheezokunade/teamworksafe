@@ -174,7 +174,7 @@ export default function About() {
                 <div className="md:col-span-1">
                   <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-blue-200">
                     <Image
-                      src="https://i.postimg.cc/pdTkHpcG/Gemini-Generated-Image-muhoo1muhoo1muho.png"
+                      src="https://i.postimg.cc/13kx4tJq/Gemini-Generated-Image-8ypmom8ypmom8ypm.png"
                       alt="Nweke Okechukwu - Managing Director"
                       fill
                       className="object-cover"
