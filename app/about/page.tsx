@@ -177,7 +177,7 @@ export default function About() {
                       src="https://i.postimg.cc/13kx4tJq/Gemini-Generated-Image-8ypmom8ypmom8ypm.png"
                       alt="Nweke Okechukwu - Managing Director"
                       fill
-                      className="object-cover"
+                      className="object-cover object-top scale-110"
                       priority
                     />
                   </div>
