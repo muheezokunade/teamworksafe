@@ -12,6 +12,7 @@ const quickLinks = [
   { label: 'About Us', href: '/about' },
   { label: 'Services', href: '/services' },
   { label: 'Projects', href: '/projects' },
+  { label: 'Gallery', href: '/gallery' },
   { label: 'Equipment', href: '/equipment' },
   { label: 'HSE Policy', href: '/hse' },
   { label: 'Careers', href: '/careers' },

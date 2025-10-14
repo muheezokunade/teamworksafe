@@ -22,6 +22,7 @@ const navItems = [
   },
   { label: 'Services', href: '/services', hasMenu: true },
   { label: 'Projects', href: '/projects' },
+  { label: 'Gallery', href: '/gallery' },
   { label: 'Contact', href: '/contact' },
 ];
 
