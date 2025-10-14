@@ -81,11 +81,11 @@
   {
     "id": "3",
     "slug": "remedial-works-river-state",
-    "title": "Remedial Works to Existing Estate Road River State and Drainage Works at Iju Road Lagos State",
-    "client": "Rivers State & Lagos State Government",
+    "title": "Remedial Works to Existing Estate Road River State",
+    "client": "Rivers State Government",
     "sector": "Infrastructure",
     "service": "General Construction",
-    "location": "River State & Lagos State",
+    "location": "Rivers State",
     "year": "2023",
     "status": "Completed",
     "duration": "8 months",
@@ -93,11 +93,7 @@
     "gallery": [
       "https://i.postimg.cc/1X2Dx0CC/Screenshot-2025-10-14-at-09-34-47.png",
       "https://i.postimg.cc/nVP4QZV8/Screenshot-2025-10-14-at-09-34-54.png",
-      "https://i.postimg.cc/VsVqb1fD/Screenshot-2025-10-14-at-09-35-07.png",
-      "https://i.postimg.cc/qB5sC0JP/Screenshot-2025-10-14-at-09-35-18.png",
-      "https://i.postimg.cc/zDcCR5DY/Screenshot-2025-10-14-at-09-35-51.png",
-      "https://i.postimg.cc/GhTkFNtV/Screenshot-2025-10-14-at-09-35-57.png",
-      "https://i.postimg.cc/VL0jqT5s/Screenshot-2025-10-14-at-09-36-04.png"
+      "https://i.postimg.cc/VsVqb1fD/Screenshot-2025-10-14-at-09-35-07.png"
     ],
     "overview": "Comprehensive remedial works on existing estate roads including resurfacing, drainage improvements, and infrastructure upgrades to enhance community access and safety.",
     "objectives": [
@@ -174,11 +170,12 @@
     "year": "2024",
     "status": "Completed",
     "duration": "10 months",
-    "image": "/images/projects/marina-tower.jpg",
+    "image": "https://i.postimg.cc/qB5sC0JP/Screenshot-2025-10-14-at-09-35-18.png",
     "gallery": [
-      "/images/projects/marina-1.jpg",
-      "/images/projects/marina-2.jpg",
-      "/images/projects/marina-3.jpg"
+      "https://i.postimg.cc/qB5sC0JP/Screenshot-2025-10-14-at-09-35-18.png",
+      "https://i.postimg.cc/zDcCR5DY/Screenshot-2025-10-14-at-09-35-51.png",
+      "https://i.postimg.cc/GhTkFNtV/Screenshot-2025-10-14-at-09-35-57.png",
+      "https://i.postimg.cc/VL0jqT5s/Screenshot-2025-10-14-at-09-36-04.png"
     ],
     "overview": "Comprehensive drainage system construction and improvement works along Iju Road to address flooding issues and improve water management infrastructure.",
     "objectives": [
