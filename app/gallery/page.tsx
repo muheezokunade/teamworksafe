@@ -175,10 +175,10 @@ export default function GalleryPage() {
       </section>
 
       {/* Gallery with Staggered Animation */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-white to-gray-50">
+      <section className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
           {/* Bento-style Grid Layout */}
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-1 md:gap-2">
             {galleryImages.map((image, index) => {
               // Create varied grid patterns for Bento-style layout
               const getBentoStyle = (idx: number) => {
@@ -213,7 +213,7 @@ export default function GalleryPage() {
                     zIndex: 10,
                     transition: { duration: 0.3 }
                   }}
-                  className={`relative ${getBentoStyle(index)} overflow-hidden rounded-xl cursor-pointer group bg-gray-200 shadow-lg`}
+                  className={`relative ${getBentoStyle(index)} overflow-hidden rounded-sm cursor-pointer group bg-gray-200 shadow-sm hover:shadow-xl`}
                   style={{ minHeight: '200px' }}
                   onClick={() => setSelectedImage(image.url)}
                 >
@@ -231,47 +231,20 @@ export default function GalleryPage() {
                     />
                   </motion.div>
                   
-                  {/* Animated Overlay */}
-                  <motion.div
-                    className="absolute inset-0 bg-gradient-to-t from-blue-900/80 via-blue-900/20 to-transparent"
-                    initial={{ opacity: 0 }}
-                    whileHover={{ opacity: 1 }}
-                    transition={{ duration: 0.3 }}
-                  />
+                  {/* Animated Overlay - Only shows on hover */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   
-                  {/* Hover Content */}
-                  <motion.div
-                    className="absolute inset-0 flex items-end p-4"
-                    initial={{ opacity: 0, y: 20 }}
-                    whileHover={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.3, delay: 0.1 }}
-                  >
-                    <div className="text-white">
-                      <motion.p 
-                        className="text-sm font-bold mb-1"
-                        initial={{ x: -20 }}
-                        whileHover={{ x: 0 }}
-                      >
-                        Project Gallery
-                      </motion.p>
-                      <motion.p 
-                        className="text-xs opacity-90"
-                        initial={{ x: -20 }}
-                        whileHover={{ x: 0 }}
-                        transition={{ delay: 0.05 }}
-                      >
-                        Click to view
-                      </motion.p>
+                  {/* Hover Content - Only visible on hover */}
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
+                    <div className="text-white text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                      <div className="w-12 h-12 mx-auto mb-2 border-2 border-white rounded-full flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                        </svg>
+                      </div>
+                      <p className="text-xs font-semibold">View Full Size</p>
                     </div>
-                  </motion.div>
-
-                  {/* Corner Accent */}
-                  <motion.div
-                    className="absolute top-3 right-3 w-2 h-2 bg-white rounded-full"
-                    initial={{ scale: 0, opacity: 0 }}
-                    whileHover={{ scale: 1, opacity: 1 }}
-                    transition={{ duration: 0.2 }}
-                  />
+                  </div>
                 </motion.div>
               );
             })}
