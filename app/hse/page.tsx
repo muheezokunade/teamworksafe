@@ -1,8 +1,5 @@
 import { Metadata } from 'next';
-import Image from 'next/image';
-import { Shield, FileText, AlertTriangle, Award, Download, CheckCircle } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+import { Shield, FileText, AlertTriangle, Award, CheckCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Health, Safety & Environment (HSE)',
@@ -190,24 +187,13 @@ export default function HSEPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {certifications.map((cert, index) => (
               <div key={index} className="bg-surface/10 backdrop-blur-sm rounded-lg p-6 text-center">
                 <h3 className="font-heading font-bold text-xl mb-2">{cert.name}</h3>
                 <p className="text-sm text-surface/80">{cert.description}</p>
               </div>
             ))}
-          </div>
-
-          <div className="text-center space-x-4">
-            <Button variant="outline" className="border-2 border-surface text-surface hover:bg-surface hover:text-primary font-semibold">
-              <Download className="mr-2 h-4 w-4" />
-              Download HSE Policy
-            </Button>
-            <Button variant="outline" className="border-2 border-surface text-surface hover:bg-surface hover:text-primary font-semibold">
-              <Download className="mr-2 h-4 w-4" />
-              Download Certificates
-            </Button>
           </div>
         </div>
       </section>

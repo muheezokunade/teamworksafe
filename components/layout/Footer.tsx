@@ -50,14 +50,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="relative h-16 w-48">
-              <Image
-                src="/logo.png"
-                alt="Teamwork Safe Operations Limited"
-                fill
-                className="object-contain object-left brightness-0 invert"
-              />
-            </div>
+            <Link href="/" className="inline-block">
+              <div className="space-y-1">
+                <h3 className="font-heading font-bold text-xl text-white">
+                  Teamwork Safe Operations
+                </h3>
+                <p className="text-xs text-muted italic">Experts You Can Trust</p>
+              </div>
+            </Link>
             <p className="text-sm text-muted leading-body">
               Teamwork Safe Operations Limited was founded in 2009 and officially incorporated as a limited liability company in 2018. We deliver excellence in construction, project management, and renewable energy solutions.
             </p>
