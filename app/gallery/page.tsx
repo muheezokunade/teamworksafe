@@ -53,9 +53,9 @@ const galleryData = {
     },
     {
       url: 'https://i.postimg.cc/0jP54Tnh/92db97dc-a4e3-41d9-9124-bd80a0ae4b60.jpg',
-      alt: 'Interior corridor',
-      caption: 'Interior Corridor & Finishing – Lekki – 2024',
-      category: 'Interiors',
+      alt: 'Foundation works',
+      caption: 'foundation works lekki 2024',
+      category: 'In-Progress',
     },
     {
       url: 'https://i.postimg.cc/6QCXNH8B/d55a2aa4-e6f7-4517-8de4-5e68fe5d32fb.jpg',
@@ -95,9 +95,9 @@ const galleryData = {
     },
     {
       url: 'https://i.postimg.cc/Y9kw21Fz/c2432567-a8d3-47fe-96a5-267c7a4c3c61.jpg',
-      alt: 'Rebar & formwork',
-      caption: 'Reinforcement & Formwork – Port Harcourt – In Progress 2024',
-      category: 'In-Progress',
+      alt: 'Swimming pool construction',
+      caption: 'swimming pool portharcourt 2024 completed',
+      category: 'Pools/Features',
     },
     {
       url: 'https://i.postimg.cc/Cxzh9HCn/bcbdd9d8-1007-4bf9-b69f-640bfca23a38.jpg',
