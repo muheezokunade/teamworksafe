@@ -21,9 +21,9 @@ const galleryData = {
     },
     {
       url: 'https://i.postimg.cc/15R5rZfY/79069670-6ba3-436f-bbc1-b62aa07d68a2.jpg',
-      alt: 'Pool tiling – amenity works',
-      caption: 'Pool Tiling & Amenities – Lagos – 2024',
-      category: 'Pools/Features',
+      alt: 'Residential bungalow under construction',
+      caption: 'Residential bungalow, Lagos, 2023',
+      category: 'Residential',
     },
   ],
   grid: [
