@@ -47,7 +47,6 @@ export default function Testimonials() {
                   author={currentTestimonial.author}
                   role={currentTestimonial.role}
                   company={currentTestimonial.company}
-                  image={currentTestimonial.image}
                 />
               </motion.div>
             </AnimatePresence>
