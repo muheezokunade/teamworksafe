@@ -120,21 +120,14 @@ const galleryData = {
   ],
 };
 
-const categories = ['All', 'Residential', 'Commercial', 'Interiors', 'Pools/Features', 'In-Progress'];
-
 export default function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [selectedCaption, setSelectedCaption] = useState<string>('');
-  const [activeFilter, setActiveFilter] = useState('All');
 
   const openLightbox = (url: string, caption: string) => {
     setSelectedImage(url);
     setSelectedCaption(caption);
   };
-
-  const filteredGrid = activeFilter === 'All' 
-    ? galleryData.grid 
-    : galleryData.grid.filter(item => item.category === activeFilter);
 
   return (
     <div className="pt-20">
@@ -170,32 +163,10 @@ export default function GalleryPage() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-xl text-white/90 max-w-3xl mx-auto mb-8"
+              className="text-xl text-white/90 max-w-3xl mx-auto"
             >
               Showcasing our finest construction projects across Lagos, Port Harcourt, and Nigeria
             </motion.p>
-
-            {/* Filter Buttons */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.4 }}
-              className="flex flex-wrap justify-center gap-2 md:gap-3"
-            >
-              {categories.map((category) => (
-                <button
-                  key={category}
-                  onClick={() => setActiveFilter(category)}
-                  className={`px-4 md:px-6 py-2 rounded-full text-sm md:text-base font-semibold transition-all duration-300 ${
-                    activeFilter === category
-                      ? 'bg-white text-blue-900 shadow-lg scale-105'
-                      : 'bg-white/20 text-white hover:bg-white/30'
-                  }`}
-                >
-                  {category}
-                </button>
-              ))}
-            </motion.div>
           </div>
         </div>
       </section>
@@ -257,7 +228,7 @@ export default function GalleryPage() {
 
           {/* Main Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4">
-            {filteredGrid.map((item, index) => (
+            {galleryData.grid.map((item, index) => (
               <motion.figure
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
