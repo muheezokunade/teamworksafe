@@ -158,44 +158,6 @@
     "tags": ["Infrastructure", "Construction", "Magodo", "Completed"]
   },
   {
-    "id": "10",
-    "slug": "swimming-pool-water-bar-prime-estate",
-    "title": "Swimming Pool with Water Bar Installation - Prime Water View Estate Lekki",
-    "client": "Prime Water View Estate Ltd",
-    "sector": "Recreation Infrastructure",
-    "service": "General Construction",
-    "location": "Lekki, Lagos State",
-    "year": "2023",
-    "status": "Completed",
-    "duration": "6 months",
-    "image": "https://i.postimg.cc/k522FPYh/04d572df-d4aa-47d9-b943-94c593556ff6.jpg",
-    "gallery": [
-      "https://i.postimg.cc/k522FPYh/04d572df-d4aa-47d9-b943-94c593556ff6.jpg"
-    ],
-    "overview": "Construction of luxury swimming pool facility with integrated water bar at Prime Water View Estate, providing premium recreational amenities for residents.",
-    "objectives": [
-      "Construct luxury swimming pool facility",
-      "Install integrated water bar",
-      "Provide premium recreational amenities",
-      "Complete within 6-month timeline"
-    ],
-    "scopeAndApproach": "Luxury recreational facility construction involving swimming pool installation, water treatment systems, and integrated water bar facilities. We ensured premium quality and modern amenities.",
-    "outcomes": {
-      "metrics": [
-        { "label": "Pool Capacity", "value": "Large" },
-        { "label": "Completion", "value": "On schedule" },
-        { "label": "Amenity Quality", "value": "Premium" },
-        { "label": "Resident Satisfaction", "value": "High" }
-      ]
-    },
-    "testimonial": {
-      "quote": "The swimming pool and water bar facility has become a highlight of our estate. Premium quality construction with modern amenities.",
-      "author": "Mrs. Adaeze Nwankwo",
-      "role": "Estate Manager, Prime Water View"
-    },
-    "tags": ["Recreation Infrastructure", "Swimming Pool", "Lekki", "Completed"]
-  },
-  {
     "id": "11",
     "slug": "ikota-abasi-gas-turbine",
     "title": "Ikota Abasi Gas Turbine Project",
