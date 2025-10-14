@@ -99,24 +99,6 @@ const galleryData = {
       caption: 'swimming pool portharcourt 2024 completed',
       category: 'Pools/Features',
     },
-    {
-      url: 'https://i.postimg.cc/Cxzh9HCn/bcbdd9d8-1007-4bf9-b69f-640bfca23a38.jpg',
-      alt: 'Completed exterior – mid-rise',
-      caption: 'Mid-Rise Development – Lagos – Completed 2024',
-      category: 'Commercial',
-    },
-    {
-      url: 'https://i.postimg.cc/gJ66dbvd/9b7139d8-8ecf-44e1-b8a7-3cdb9105198e.jpg',
-      alt: 'Façade detail',
-      caption: 'Façade Detail & Finishing – Lekki – Completed 2024',
-      category: 'Residential',
-    },
-    {
-      url: 'https://i.postimg.cc/kgp45hMF/49daa97a-bdd9-4474-b22d-6dbab185794f.jpg',
-      alt: 'Site works',
-      caption: 'Site Works & Infrastructure – Lagos – In Progress 2024',
-      category: 'In-Progress',
-    },
   ],
 };
 
@@ -265,7 +247,7 @@ export default function GalleryPage() {
           >
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               {[
-                { number: '18', label: 'Featured Projects' },
+                { number: '15', label: 'Featured Projects' },
                 { number: '236+', label: 'Total Projects' },
                 { number: '15+', label: 'Years Experience' },
                 { number: '100%', label: 'Client Satisfaction' }

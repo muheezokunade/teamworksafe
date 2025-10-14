@@ -1,9 +1,11 @@
 import { MetadataRoute } from 'next'
+import projectsData from '@/data/projects.json'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://teamworksafeoperations.com'
   
-  return [
+  // Static pages
+  const staticPages: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
       lastModified: new Date(),
@@ -77,4 +79,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
   ]
+
+  // Dynamic project pages
+  const projectPages: MetadataRoute.Sitemap = projectsData.map((project) => ({
+    url: `${baseUrl}/projects/${project.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }))
+
+  return [...staticPages, ...projectPages]
 }

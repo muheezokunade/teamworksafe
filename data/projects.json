@@ -236,5 +236,575 @@
       "role": "Energy Project Manager"
     },
     "tags": ["Energy", "Gas Turbine", "Ikota Abasi", "Completed"]
+  },
+  {
+    "id": "12",
+    "slug": "modern-residential-facade-lagos",
+    "title": "Modern Residential Façade – Lagos",
+    "client": "Private Developer",
+    "sector": "Residential",
+    "service": "General Construction",
+    "location": "Lagos State",
+    "year": "2024",
+    "status": "Completed",
+    "duration": "12 months",
+    "image": "https://i.postimg.cc/FKYYgXCM/82b2cf04-4778-4ab5-a268-19425d3ca4a9.jpg",
+    "gallery": [
+      "https://i.postimg.cc/FKYYgXCM/82b2cf04-4778-4ab5-a268-19425d3ca4a9.jpg"
+    ],
+    "overview": "Modern residential development featuring contemporary architectural design with premium finishes and state-of-the-art amenities in Lagos.",
+    "objectives": [
+      "Deliver modern residential units with contemporary design",
+      "Complete construction within 12-month timeline",
+      "Implement sustainable building practices",
+      "Achieve premium finishing standards"
+    ],
+    "scopeAndApproach": "Complete construction of modern residential building with contemporary façade design, premium materials, and modern amenities. Our team ensured architectural excellence and quality finishing throughout the project.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Units Delivered", "value": "20 apartments" },
+        { "label": "Completion", "value": "On schedule" },
+        { "label": "Quality Rating", "value": "Premium" },
+        { "label": "Design Innovation", "value": "Modern" }
+      ]
+    },
+    "testimonial": {
+      "quote": "The modern façade design and quality of construction exceeded our expectations. Teamwork Safe Operations delivered a stunning residential development.",
+      "author": "Arch. Tunde Bakare",
+      "role": "Project Architect"
+    },
+    "tags": ["Residential", "Construction", "Lagos", "Modern Design"]
+  },
+  {
+    "id": "13",
+    "slug": "high-rise-development-lagos",
+    "title": "High-Rise Development – Lagos",
+    "client": "Commercial Developer Ltd",
+    "sector": "Commercial",
+    "service": "General Construction",
+    "location": "Lagos State",
+    "year": "2024",
+    "status": "Completed",
+    "duration": "30 months",
+    "image": "https://i.postimg.cc/g2YRh5Pg/6f968d22-2aaa-45af-90fc-7b944de80549.jpg",
+    "gallery": [
+      "https://i.postimg.cc/g2YRh5Pg/6f968d22-2aaa-45af-90fc-7b944de80549.jpg"
+    ],
+    "overview": "High-rise commercial and residential mixed-use development featuring modern design, advanced structural engineering, and premium amenities in central Lagos.",
+    "objectives": [
+      "Construct high-rise mixed-use building",
+      "Implement advanced structural engineering",
+      "Deliver premium commercial and residential spaces",
+      "Complete within 30-month timeline"
+    ],
+    "scopeAndApproach": "Large-scale high-rise construction project involving deep foundations, advanced structural systems, and modern building technologies. Our team managed complex logistics and quality control for this landmark development.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Building Height", "value": "15+ floors" },
+        { "label": "Total Units", "value": "60+ units" },
+        { "label": "Completion", "value": "On schedule" },
+        { "label": "Safety Record", "value": "Zero LTI" }
+      ]
+    },
+    "testimonial": {
+      "quote": "This high-rise development showcases Teamwork Safe Operations' capability to handle complex, large-scale projects with exceptional quality and safety standards.",
+      "author": "Mr. Chidi Okonkwo",
+      "role": "Managing Director, Commercial Developer Ltd"
+    },
+    "tags": ["Commercial", "High-Rise", "Lagos", "Mixed-Use"]
+  },
+  {
+    "id": "14",
+    "slug": "residential-bungalow-lagos",
+    "title": "Residential Bungalow, Lagos",
+    "client": "Private Homeowner",
+    "sector": "Residential",
+    "service": "General Construction",
+    "location": "Lagos State",
+    "year": "2023",
+    "status": "Completed",
+    "duration": "8 months",
+    "image": "https://i.postimg.cc/15R5rZfY/79069670-6ba3-436f-bbc1-b62aa07d68a2.jpg",
+    "gallery": [
+      "https://i.postimg.cc/15R5rZfY/79069670-6ba3-436f-bbc1-b62aa07d68a2.jpg"
+    ],
+    "overview": "Construction of modern residential bungalow with contemporary design, quality finishes, and comfortable living spaces.",
+    "objectives": [
+      "Build quality residential bungalow",
+      "Implement modern design elements",
+      "Deliver quality finishes",
+      "Complete within 8-month timeline"
+    ],
+    "scopeAndApproach": "Residential construction project involving foundation work, structural construction, roofing, and premium finishing. We delivered a comfortable, modern home meeting all client specifications.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Living Area", "value": "250 sqm" },
+        { "label": "Completion", "value": "On time" },
+        { "label": "Quality", "value": "High standard" },
+        { "label": "Client Satisfaction", "value": "100%" }
+      ]
+    },
+    "testimonial": {
+      "quote": "Our dream home was brought to life by Teamwork Safe Operations. Professional, quality-focused, and delivered on time.",
+      "author": "Mrs. Chioma Nnamdi",
+      "role": "Homeowner"
+    },
+    "tags": ["Residential", "Bungalow", "Lagos", "Private"]
+  },
+  {
+    "id": "15",
+    "slug": "office-complex-lagos-2022",
+    "title": "Office Complex – Lagos",
+    "client": "Corporate Client",
+    "sector": "Commercial",
+    "service": "General Construction",
+    "location": "Lagos State",
+    "year": "2022",
+    "status": "Completed",
+    "duration": "18 months",
+    "image": "https://i.postimg.cc/J43ZG8Sz/1e5be2fb-3a49-49d6-89a3-a980a7df55f1.jpg",
+    "gallery": [
+      "https://i.postimg.cc/J43ZG8Sz/1e5be2fb-3a49-49d6-89a3-a980a7df55f1.jpg"
+    ],
+    "overview": "Modern office complex construction featuring professional workspace design, advanced building systems, and premium amenities for corporate operations.",
+    "objectives": [
+      "Build modern office complex",
+      "Implement professional workspace design",
+      "Install advanced building systems",
+      "Complete within 18-month timeline"
+    ],
+    "scopeAndApproach": "Commercial construction project involving structural work, mechanical and electrical systems installation, and premium office space finishing. We delivered a modern workspace optimized for corporate operations.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Office Space", "value": "5,000 sqm" },
+        { "label": "Floors", "value": "6 floors" },
+        { "label": "Completion", "value": "On schedule" },
+        { "label": "Quality", "value": "Premium" }
+      ]
+    },
+    "testimonial": {
+      "quote": "The office complex construction was handled professionally from start to finish. Excellent quality and attention to detail.",
+      "author": "Mr. Olumide Adeyemi",
+      "role": "Facilities Manager"
+    },
+    "tags": ["Commercial", "Office", "Lagos", "Corporate"]
+  },
+  {
+    "id": "16",
+    "slug": "residential-apartment-2021",
+    "title": "Residential Apartment 2021",
+    "client": "Private Developer",
+    "sector": "Residential",
+    "service": "General Construction",
+    "location": "Lagos State",
+    "year": "2021",
+    "status": "Completed",
+    "duration": "14 months",
+    "image": "https://i.postimg.cc/25nDfH1R/d49ea030-b211-426a-91ed-cd31b0cff84b.jpg",
+    "gallery": [
+      "https://i.postimg.cc/25nDfH1R/d49ea030-b211-426a-91ed-cd31b0cff84b.jpg"
+    ],
+    "overview": "Multi-unit residential apartment building featuring modern design, quality construction, and comfortable living spaces.",
+    "objectives": [
+      "Build multi-unit residential apartment",
+      "Deliver quality construction",
+      "Implement modern design",
+      "Complete within 14-month timeline"
+    ],
+    "scopeAndApproach": "Residential construction project involving complete building construction with multiple apartment units, modern amenities, and quality finishes throughout.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Apartment Units", "value": "12 units" },
+        { "label": "Completion", "value": "On time" },
+        { "label": "Quality", "value": "High" },
+        { "label": "Occupancy", "value": "100%" }
+      ]
+    },
+    "testimonial": {
+      "quote": "Quality residential construction delivered on time. The apartments are well-built and residents are very satisfied.",
+      "author": "Mr. Femi Adeogun",
+      "role": "Property Developer"
+    },
+    "tags": ["Residential", "Apartments", "Lagos", "Multi-Unit"]
+  },
+  {
+    "id": "17",
+    "slug": "educational-institution-port-harcourt",
+    "title": "Educational Institution – Port Harcourt",
+    "client": "Educational Board",
+    "sector": "Education",
+    "service": "General Construction",
+    "location": "Port Harcourt, Rivers State",
+    "year": "2024",
+    "status": "In Progress",
+    "duration": "20 months",
+    "image": "https://i.postimg.cc/d18t4s2G/929fb0ca-b46d-4811-88e5-4f7f6fd8710a.jpg",
+    "gallery": [
+      "https://i.postimg.cc/d18t4s2G/929fb0ca-b46d-4811-88e5-4f7f6fd8710a.jpg"
+    ],
+    "overview": "Construction of modern educational facility featuring classrooms, laboratories, administrative offices, and recreational spaces to support quality education.",
+    "objectives": [
+      "Build modern educational facility",
+      "Provide quality learning spaces",
+      "Implement sustainable design",
+      "Complete within 20-month timeline"
+    ],
+    "scopeAndApproach": "Educational infrastructure project involving construction of classrooms, laboratories, offices, and support facilities. We're ensuring quality construction that supports modern educational needs.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Classroom Capacity", "value": "30+ rooms" },
+        { "label": "Progress", "value": "75% complete" },
+        { "label": "Safety Record", "value": "Zero incidents" },
+        { "label": "Quality", "value": "High standard" }
+      ]
+    },
+    "testimonial": {
+      "quote": "The construction progress has been impressive. We're looking forward to a modern facility that will serve our educational mission well.",
+      "author": "Dr. Amina Yusuf",
+      "role": "Director, Educational Board"
+    },
+    "tags": ["Education", "Infrastructure", "Port Harcourt", "In Progress"]
+  },
+  {
+    "id": "18",
+    "slug": "mid-rise-apartments-lagos-ongoing",
+    "title": "Mid-Rise Apartments – Lagos – Ongoing",
+    "client": "Real Estate Developer",
+    "sector": "Residential",
+    "service": "General Construction",
+    "location": "Lagos State",
+    "year": "2024",
+    "status": "In Progress",
+    "duration": "22 months",
+    "image": "https://i.postimg.cc/GhpdsJ5B/c07ac774-cc11-411f-9dd3-dad09880cd5f.jpg",
+    "gallery": [
+      "https://i.postimg.cc/GhpdsJ5B/c07ac774-cc11-411f-9dd3-dad09880cd5f.jpg"
+    ],
+    "overview": "Mid-rise residential apartment development featuring modern design, quality construction, and premium amenities currently under construction.",
+    "objectives": [
+      "Build mid-rise residential complex",
+      "Deliver quality apartment units",
+      "Implement modern amenities",
+      "Complete within 22-month timeline"
+    ],
+    "scopeAndApproach": "Ongoing mid-rise construction project with structural work, MEP installations, and finishing work in progress. We're maintaining quality standards and safety protocols throughout construction.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Total Units", "value": "40 apartments" },
+        { "label": "Progress", "value": "60% complete" },
+        { "label": "Floors", "value": "8 floors" },
+        { "label": "Safety", "value": "Excellent" }
+      ]
+    },
+    "testimonial": {
+      "quote": "Construction is progressing smoothly with excellent quality control. We're confident in Teamwork Safe Operations' ability to deliver a premium development.",
+      "author": "Mr. Ibrahim Hassan",
+      "role": "Project Manager, Real Estate Developer"
+    },
+    "tags": ["Residential", "Mid-Rise", "Lagos", "In Progress"]
+  },
+  {
+    "id": "19",
+    "slug": "foundation-works-lekki",
+    "title": "Foundation Works Lekki 2024",
+    "client": "Private Developer",
+    "sector": "Residential",
+    "service": "General Construction",
+    "location": "Lekki, Lagos State",
+    "year": "2024",
+    "status": "In Progress",
+    "duration": "10 months",
+    "image": "https://i.postimg.cc/0jP54Tnh/92db97dc-a4e3-41d9-9124-bd80a0ae4b60.jpg",
+    "gallery": [
+      "https://i.postimg.cc/0jP54Tnh/92db97dc-a4e3-41d9-9124-bd80a0ae4b60.jpg"
+    ],
+    "overview": "Foundation works for residential development in Lekki, involving deep foundation systems and ground preparation for quality construction.",
+    "objectives": [
+      "Execute quality foundation works",
+      "Ensure structural integrity",
+      "Prepare for superstructure construction",
+      "Complete foundation phase on schedule"
+    ],
+    "scopeAndApproach": "Foundation construction project involving site preparation, excavation, piling works, and concrete foundation systems. We're ensuring solid foundation for the planned residential development.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Foundation Type", "value": "Deep pile foundation" },
+        { "label": "Progress", "value": "80% complete" },
+        { "label": "Quality Tests", "value": "All passed" },
+        { "label": "Safety", "value": "Zero incidents" }
+      ]
+    },
+    "testimonial": {
+      "quote": "The foundation work is being executed professionally with proper engineering standards. We're confident in the structural integrity.",
+      "author": "Engr. Bola Adekunle",
+      "role": "Structural Engineer"
+    },
+    "tags": ["Residential", "Foundation", "Lekki", "In Progress"]
+  },
+  {
+    "id": "20",
+    "slug": "residential-apartment-ikoyi-ongoing",
+    "title": "Finishes, Residential Apartment Ikoyi Ongoing",
+    "client": "Luxury Property Developer",
+    "sector": "Residential",
+    "service": "General Construction",
+    "location": "Ikoyi, Lagos State",
+    "year": "2024",
+    "status": "In Progress",
+    "duration": "16 months",
+    "image": "https://i.postimg.cc/6QCXNH8B/d55a2aa4-e6f7-4517-8de4-5e68fe5d32fb.jpg",
+    "gallery": [
+      "https://i.postimg.cc/6QCXNH8B/d55a2aa4-e6f7-4517-8de4-5e68fe5d32fb.jpg"
+    ],
+    "overview": "Luxury residential apartment finishing works in Ikoyi featuring premium materials, modern design, and high-end amenities.",
+    "objectives": [
+      "Deliver premium apartment finishes",
+      "Install luxury fixtures and fittings",
+      "Implement modern interior design",
+      "Complete finishing phase on schedule"
+    ],
+    "scopeAndApproach": "Finishing works project involving premium flooring, wall finishes, ceiling works, kitchen installations, bathroom fittings, and luxury amenities installation.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Apartment Units", "value": "16 luxury units" },
+        { "label": "Progress", "value": "70% complete" },
+        { "label": "Finish Quality", "value": "Premium" },
+        { "label": "Timeline", "value": "On track" }
+      ]
+    },
+    "testimonial": {
+      "quote": "The finishing quality is exceptional. Teamwork Safe Operations is delivering the luxury standard we envisioned for this Ikoyi development.",
+      "author": "Mrs. Kemi Adewale",
+      "role": "Project Manager, Luxury Property Developer"
+    },
+    "tags": ["Residential", "Luxury", "Ikoyi", "In Progress"]
+  },
+  {
+    "id": "21",
+    "slug": "office-complex-ikeja-ongoing",
+    "title": "Office Complex Ikeja Lagos Ongoing",
+    "client": "Corporate Real Estate",
+    "sector": "Commercial",
+    "service": "General Construction",
+    "location": "Ikeja, Lagos State",
+    "year": "2024",
+    "status": "In Progress",
+    "duration": "20 months",
+    "image": "https://i.postimg.cc/k4xXfJQx/655f194f-1071-400d-b7f3-f2f33affb533.jpg",
+    "gallery": [
+      "https://i.postimg.cc/k4xXfJQx/655f194f-1071-400d-b7f3-f2f33affb533.jpg"
+    ],
+    "overview": "Modern office complex construction in Ikeja featuring professional workspace design, advanced building systems, and corporate amenities.",
+    "objectives": [
+      "Build modern office complex",
+      "Provide quality corporate workspace",
+      "Install advanced building systems",
+      "Complete within timeline"
+    ],
+    "scopeAndApproach": "Commercial construction project currently in progress, involving structural construction, MEP systems installation, and office space development optimized for corporate use.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Office Space", "value": "8,000 sqm" },
+        { "label": "Progress", "value": "55% complete" },
+        { "label": "Floors", "value": "7 floors" },
+        { "label": "Safety", "value": "Excellent record" }
+      ]
+    },
+    "testimonial": {
+      "quote": "The office complex is taking shape beautifully. Professional project management and quality construction throughout.",
+      "author": "Mr. Emeka Obi",
+      "role": "Development Manager, Corporate Real Estate"
+    },
+    "tags": ["Commercial", "Office", "Ikeja", "In Progress"]
+  },
+  {
+    "id": "22",
+    "slug": "residential-apartment-lekki-completed",
+    "title": "Residential Apartment Lekki Completed 2024",
+    "client": "Property Investment Group",
+    "sector": "Residential",
+    "service": "General Construction",
+    "location": "Lekki, Lagos State",
+    "year": "2024",
+    "status": "Completed",
+    "duration": "16 months",
+    "image": "https://i.postimg.cc/m2Z2yGtd/ac9dcb76-783c-4934-b79f-b178361c89d7.jpg",
+    "gallery": [
+      "https://i.postimg.cc/m2Z2yGtd/ac9dcb76-783c-4934-b79f-b178361c89d7.jpg"
+    ],
+    "overview": "Completed residential apartment development in Lekki featuring modern design, quality construction, and contemporary amenities.",
+    "objectives": [
+      "Build quality residential apartments",
+      "Deliver modern living spaces",
+      "Implement quality finishes",
+      "Complete within 16-month timeline"
+    ],
+    "scopeAndApproach": "Complete residential construction project delivered with modern design elements, quality materials, and contemporary amenities for comfortable urban living.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Apartment Units", "value": "18 units" },
+        { "label": "Completion", "value": "On schedule" },
+        { "label": "Quality", "value": "High standard" },
+        { "label": "Occupancy", "value": "Fully occupied" }
+      ]
+    },
+    "testimonial": {
+      "quote": "Excellent residential development completed to high standards. The apartments are modern, well-built, and highly sought after.",
+      "author": "Mr. Tunde Ojo",
+      "role": "Managing Partner, Property Investment Group"
+    },
+    "tags": ["Residential", "Apartments", "Lekki", "Completed"]
+  },
+  {
+    "id": "23",
+    "slug": "office-building-marina-lagos-ongoing",
+    "title": "Office Building, Marina Lagos Ongoing",
+    "client": "Commercial Property Ltd",
+    "sector": "Commercial",
+    "service": "General Construction",
+    "location": "Marina, Lagos State",
+    "year": "2024",
+    "status": "In Progress",
+    "duration": "24 months",
+    "image": "https://i.postimg.cc/8Pykyn6d/b406c64e-9757-4be2-8c82-c0739e04ecd7.jpg",
+    "gallery": [
+      "https://i.postimg.cc/8Pykyn6d/b406c64e-9757-4be2-8c82-c0739e04ecd7.jpg"
+    ],
+    "overview": "Major office building construction in Marina, Lagos CBD, featuring modern commercial design and premium corporate facilities.",
+    "objectives": [
+      "Build landmark office building in Marina",
+      "Deliver premium corporate spaces",
+      "Implement modern building systems",
+      "Complete within 24-month timeline"
+    ],
+    "scopeAndApproach": "Large-scale commercial construction in Lagos CBD involving advanced structural systems, modern building technologies, and premium office space development.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Office Space", "value": "12,000 sqm" },
+        { "label": "Progress", "value": "50% complete" },
+        { "label": "Floors", "value": "10 floors" },
+        { "label": "Quality", "value": "Premium" }
+      ]
+    },
+    "testimonial": {
+      "quote": "This Marina office building project demonstrates Teamwork Safe Operations' capability in handling major commercial developments in prime Lagos locations.",
+      "author": "Arch. Ngozi Okafor",
+      "role": "Project Architect, Commercial Property Ltd"
+    },
+    "tags": ["Commercial", "Office", "Marina", "In Progress"]
+  },
+  {
+    "id": "24",
+    "slug": "residential-apartment-lekki-2024",
+    "title": "Residential Apartment – Lekki – Completed 2024",
+    "client": "Estate Developer",
+    "sector": "Residential",
+    "service": "General Construction",
+    "location": "Lekki, Lagos State",
+    "year": "2024",
+    "status": "Completed",
+    "duration": "14 months",
+    "image": "https://i.postimg.cc/TwGX2rbt/e6dea671-de68-4ac3-9f72-15834cf3184d.jpg",
+    "gallery": [
+      "https://i.postimg.cc/TwGX2rbt/e6dea671-de68-4ac3-9f72-15834cf3184d.jpg"
+    ],
+    "overview": "Modern residential apartment development in Lekki featuring contemporary design, quality construction, and modern amenities.",
+    "objectives": [
+      "Build modern residential apartments",
+      "Deliver quality construction",
+      "Implement contemporary design",
+      "Complete within 14-month timeline"
+    ],
+    "scopeAndApproach": "Residential construction project completed with modern architectural design, quality materials, and contemporary amenities for comfortable living.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Apartment Units", "value": "15 units" },
+        { "label": "Completion", "value": "On time" },
+        { "label": "Quality", "value": "High" },
+        { "label": "Market Reception", "value": "Excellent" }
+      ]
+    },
+    "testimonial": {
+      "quote": "Beautiful residential development delivered on time with excellent quality. The apartments are modern and very attractive to buyers.",
+      "author": "Mr. Ade Ogunleye",
+      "role": "Director, Estate Developer"
+    },
+    "tags": ["Residential", "Apartments", "Lekki", "Completed"]
+  },
+  {
+    "id": "25",
+    "slug": "residential-apartment-eleko-lagos",
+    "title": "Residential Apartment Eleko Lagos 2021",
+    "client": "Private Developer",
+    "sector": "Residential",
+    "service": "General Construction",
+    "location": "Eleko, Lagos State",
+    "year": "2021",
+    "status": "Completed",
+    "duration": "12 months",
+    "image": "https://i.postimg.cc/kGTCpBBx/b0034052-ddb0-4942-9266-6af5f13e7fb6.jpg",
+    "gallery": [
+      "https://i.postimg.cc/kGTCpBBx/b0034052-ddb0-4942-9266-6af5f13e7fb6.jpg"
+    ],
+    "overview": "Residential apartment construction in Eleko area featuring quality design, modern construction, and comfortable living spaces.",
+    "objectives": [
+      "Build residential apartments in Eleko",
+      "Deliver quality construction",
+      "Provide comfortable living spaces",
+      "Complete within 12-month timeline"
+    ],
+    "scopeAndApproach": "Residential construction project involving complete building construction with modern amenities and quality finishes throughout all units.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Apartment Units", "value": "10 units" },
+        { "label": "Completion", "value": "On schedule" },
+        { "label": "Quality", "value": "Good standard" },
+        { "label": "Occupancy", "value": "100%" }
+      ]
+    },
+    "testimonial": {
+      "quote": "Solid construction work delivered on time. The apartments in Eleko are well-built and residents are satisfied.",
+      "author": "Mr. Segun Adisa",
+      "role": "Property Owner"
+    },
+    "tags": ["Residential", "Apartments", "Eleko", "Completed"]
+  },
+  {
+    "id": "26",
+    "slug": "swimming-pool-port-harcourt",
+    "title": "Swimming Pool Port Harcourt 2024 Completed",
+    "client": "Estate Management Company",
+    "sector": "Recreation Infrastructure",
+    "service": "General Construction",
+    "location": "Port Harcourt, Rivers State",
+    "year": "2024",
+    "status": "Completed",
+    "duration": "5 months",
+    "image": "https://i.postimg.cc/Y9kw21Fz/c2432567-a8d3-47fe-96a5-267c7a4c3c61.jpg",
+    "gallery": [
+      "https://i.postimg.cc/Y9kw21Fz/c2432567-a8d3-47fe-96a5-267c7a4c3c61.jpg"
+    ],
+    "overview": "Swimming pool construction in Port Harcourt featuring modern design, quality installation, and recreational amenities.",
+    "objectives": [
+      "Construct quality swimming pool facility",
+      "Install modern pool systems",
+      "Provide recreational amenities",
+      "Complete within 5-month timeline"
+    ],
+    "scopeAndApproach": "Swimming pool construction project involving excavation, pool installation, water treatment systems, and surrounding amenities development.",
+    "outcomes": {
+      "metrics": [
+        { "label": "Pool Size", "value": "Olympic standard" },
+        { "label": "Completion", "value": "On time" },
+        { "label": "Quality", "value": "High" },
+        { "label": "User Satisfaction", "value": "Excellent" }
+      ]
+    },
+    "testimonial": {
+      "quote": "The swimming pool facility is well-constructed with modern systems. It has become a popular amenity in our estate.",
+      "author": "Mrs. Grace Nwosu",
+      "role": "Estate Manager"
+    },
+    "tags": ["Recreation", "Swimming Pool", "Port Harcourt", "Completed"]
   }
 ]

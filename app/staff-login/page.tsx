@@ -15,16 +15,16 @@ export default function StaffLoginPage() {
         <Loader2 className="w-12 h-12 text-primary animate-spin mx-auto mb-4" />
         <h1 className="font-heading font-bold text-2xl text-text mb-2">
           Redirecting to Zoho Mail...
-        </h1>
-        <p className="text-muted">
+            </h1>
+            <p className="text-muted">
           If you are not redirected automatically,{' '}
           <a 
             href="https://mail.zoho.com" 
             className="text-primary hover:text-accent underline"
           >
             click here
-          </a>
-        </p>
+              </a>
+            </p>
       </div>
     </div>
   );
