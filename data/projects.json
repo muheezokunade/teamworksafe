@@ -129,12 +129,11 @@
     "year": "2022",
     "status": "Completed",
     "duration": "6 months",
-    "image": "/images/projects/refinery-maintenance.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Ongoing_road_construction.jpg",
     "gallery": [
-      "/images/projects/refinery-1.jpg",
-      "/images/projects/refinery-2.jpg",
-      "/images/projects/refinery-3.jpg",
-      "/images/projects/refinery-4.jpg"
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Ongoing_road_construction.jpg",
+      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800",
+      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
     ],
     "overview": "Specialized arth work construction at Comfort Oboh Street including structural works, road improvements, and utility installations in the Kirikiri area of Apapa.",
     "objectives": [
@@ -211,11 +210,11 @@
     "year": "2023",
     "status": "Completed",
     "duration": "4 months",
-    "image": "/images/projects/lekki-plaza.jpg",
+    "image": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800",
     "gallery": [
-      "/images/projects/lekki-plaza-1.jpg",
-      "/images/projects/lekki-plaza-2.jpg",
-      "/images/projects/lekki-plaza-3.jpg"
+      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800",
+      "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800",
+      "https://images.unsplash.com/photo-1590856029620-0cae5d7c58c7?w=800"
     ],
     "overview": "Construction of a major ring culvert system in Magodo to improve water flow management and prevent flooding in the area.",
     "objectives": [
@@ -251,11 +250,11 @@
     "year": "2024",
     "status": "Completed",
     "duration": "3 months",
-    "image": "/images/projects/solar-farm.jpg",
+    "image": "https://images.unsplash.com/photo-1621544402532-75763c80ccb2?w=800",
     "gallery": [
-      "/images/projects/solar-farm-1.jpg",
-      "/images/projects/solar-farm-2.jpg",
-      "/images/projects/solar-farm-3.jpg"
+      "https://images.unsplash.com/photo-1621544402532-75763c80ccb2?w=800",
+      "https://images.unsplash.com/photo-1582037928495-cfb1b3d33c46?w=800",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800"
     ],
     "overview": "Professional asphalt laying and road resurfacing work at Agbokham Drive in Magodo Estate, improving road quality and driving experience.",
     "objectives": [
@@ -291,11 +290,11 @@
     "year": "2023",
     "status": "Completed",
     "duration": "12 months",
-    "image": "/images/projects/gwarinpa-estate.jpg",
+    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800",
     "gallery": [
-      "/images/projects/gwarinpa-1.jpg",
-      "/images/projects/gwarinpa-2.jpg",
-      "/images/projects/gwarinpa-3.jpg"
+      "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800",
+      "https://images.unsplash.com/photo-1516733968668-dbdce39c4651?w=800",
+      "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800"
     ],
     "overview": "Construction of a major jetty facility in Akwa Ibom State to support marine transportation and economic activities in the region.",
     "objectives": [
@@ -331,11 +330,11 @@
     "year": "2024",
     "status": "Completed",
     "duration": "14 months",
-    "image": "/images/projects/refinery-maintenance.jpg",
+    "image": "https://images.unsplash.com/photo-1566363728766-7b8e3c328792?w=800",
     "gallery": [
-      "/images/projects/refinery-1.jpg",
-      "/images/projects/refinery-2.jpg",
-      "/images/projects/refinery-3.jpg"
+      "https://images.unsplash.com/photo-1566363728766-7b8e3c328792?w=800",
+      "https://images.unsplash.com/photo-1605126719934-ea6c64515d0b?w=800",
+      "https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?w=800"
     ],
     "overview": "Construction of a specialized cargo jetty facility in Badagry to support cargo handling operations and boost maritime trade in the region.",
     "objectives": [
@@ -371,11 +370,11 @@
     "year": "2023",
     "status": "Completed",
     "duration": "6 months",
-    "image": "/images/projects/marina-tower.jpg",
+    "image": "https://images.unsplash.com/photo-1576610616656-d3aa5d1f4534?w=800",
     "gallery": [
-      "/images/projects/marina-1.jpg",
-      "/images/projects/marina-2.jpg",
-      "/images/projects/marina-3.jpg"
+      "https://images.unsplash.com/photo-1576610616656-d3aa5d1f4534?w=800",
+      "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800",
+      "https://images.unsplash.com/photo-1560579067-e04b79e0b3f2?w=800"
     ],
     "overview": "Construction of luxury swimming pool facility with integrated water bar at Prime Water View Estate, providing premium recreational amenities for residents.",
     "objectives": [
@@ -411,11 +410,11 @@
     "year": "2024",
     "status": "Completed",
     "duration": "16 months",
-    "image": "/images/projects/lekki-plaza.jpg",
+    "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800",
     "gallery": [
-      "/images/projects/lekki-plaza-1.jpg",
-      "/images/projects/lekki-plaza-2.jpg",
-      "/images/projects/lekki-plaza-3.jpg"
+      "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800",
+      "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=800",
+      "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=800"
     ],
     "overview": "Installation and commissioning of gas turbine power generation system at Ikota Abasi, providing reliable power supply for industrial operations.",
     "objectives": [
