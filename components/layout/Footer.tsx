@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -50,11 +51,14 @@ export default function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <Link href="/" className="inline-block">
-              <div className="space-y-1">
-                <h3 className="font-heading font-bold text-xl text-white">
-                  Teamwork Safe Operations
-                </h3>
-                <p className="text-xs text-muted italic">Experts You Can Trust</p>
+              <div className="relative h-12 w-48">
+                <Image
+                  src="/logo.png"
+                  alt="Teamwork Safe Operations Limited"
+                  fill
+                  className="object-contain object-left brightness-0 invert"
+                  priority
+                />
               </div>
             </Link>
             <p className="text-sm text-muted leading-body">
