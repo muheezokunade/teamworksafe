@@ -17,7 +17,7 @@ export default function HSETeaser() {
               comprehensive HSE programs, regular training, and strict compliance protocols protect our 
               people, clients, and communities.
             </p>
-            <Button asChild variant="outline" className="border-2 border-surface text-surface hover:bg-surface hover:text-primary font-semibold">
+            <Button asChild size="lg" className="bg-white text-primary hover:bg-white/90 font-semibold">
               <Link href="/hse">Learn About Our HSE Commitment</Link>
             </Button>
           </div>
