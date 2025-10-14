@@ -49,12 +49,11 @@
     "year": "2024",
     "status": "Completed",
     "duration": "18 months",
-    "image": "/images/projects/solar-farm.jpg",
+    "image": "https://i.postimg.cc/25gPcgrr/Gemini-Generated-Image-m1wh8km1wh8km1wh.png",
     "gallery": [
-      "/images/projects/solar-farm-1.jpg",
-      "/images/projects/solar-farm-2.jpg",
-      "/images/projects/solar-farm-3.jpg",
-      "/images/projects/solar-farm-4.jpg"
+      "https://i.postimg.cc/25gPcgrr/Gemini-Generated-Image-m1wh8km1wh8km1wh.png",
+      "https://i.postimg.cc/gk06s7Js/Screenshot-2025-10-14-at-09-26-15.png",
+      "https://i.postimg.cc/g2XLF63w/Screenshot-2025-10-14-at-09-26-21.png"
     ],
     "overview": "Premium duplex development in Crown Estate featuring modern architectural design with luxury finishes and state-of-the-art amenities.",
     "objectives": [
