@@ -119,50 +119,9 @@
     "tags": ["Infrastructure", "Construction", "River State", "Completed"]
   },
   {
-    "id": "5",
-    "slug": "drainage-works-iju-lagos",
-    "title": "Drainage Works at Iju Road Lagos State",
-    "client": "Lagos State Government",
-    "sector": "Infrastructure",
-    "service": "General Construction",
-    "location": "Iju, Lagos State",
-    "year": "2024",
-    "status": "Completed",
-    "duration": "10 months",
-    "image": "https://i.postimg.cc/qB5sC0JP/Screenshot-2025-10-14-at-09-35-18.png",
-    "gallery": [
-      "https://i.postimg.cc/qB5sC0JP/Screenshot-2025-10-14-at-09-35-18.png",
-      "https://i.postimg.cc/zDcCR5DY/Screenshot-2025-10-14-at-09-35-51.png",
-      "https://i.postimg.cc/GhTkFNtV/Screenshot-2025-10-14-at-09-35-57.png",
-      "https://i.postimg.cc/VL0jqT5s/Screenshot-2025-10-14-at-09-36-04.png"
-    ],
-    "overview": "Comprehensive drainage system construction and improvement works along Iju Road to address flooding issues and improve water management infrastructure.",
-    "objectives": [
-      "Construct comprehensive drainage system",
-      "Address flooding issues",
-      "Improve water management",
-      "Complete within 10-month timeline"
-    ],
-    "scopeAndApproach": "Large-scale drainage construction project involving excavation, concrete works, pipe installation, and system integration. We worked closely with local authorities to ensure proper water flow management and flood prevention.",
-    "outcomes": {
-      "metrics": [
-        { "label": "Drainage Length", "value": "8km" },
-        { "label": "Completion", "value": "On schedule" },
-        { "label": "Flood Reduction", "value": "Significant" },
-        { "label": "Community Impact", "value": "Positive" }
-      ]
-    },
-    "testimonial": {
-      "quote": "The drainage works have significantly improved our community's flood management. Excellent execution by Teamwork Safe Operations.",
-      "author": "Mrs. Adaeze Nwankwo",
-      "role": "Infrastructure Director, Lagos State"
-    },
-    "tags": ["Infrastructure", "Drainage", "Lagos", "Completed"]
-  },
-  {
     "id": "6",
     "slug": "ring-culvert-magodo-lagos",
-    "title": "Construction of Ring Culvert at Magodo Lagos State",
+    "title": "Construction of Ring Culvert and Drainage at Magodo Lagos State",
     "client": "Lagos State Government",
     "sector": "Infrastructure",
     "service": "General Construction",

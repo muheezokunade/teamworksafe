@@ -89,9 +89,9 @@ const galleryData = {
     },
     {
       url: 'https://i.postimg.cc/kGTCpBBx/b0034052-ddb0-4942-9266-6af5f13e7fb6.jpg',
-      alt: 'Interior grey box',
-      caption: 'Interior Grey Box Stage – Lagos – 2024',
-      category: 'Interiors',
+      alt: 'Residential apartment under construction',
+      caption: 'Residential Apartment Eleko Lagos 2021',
+      category: 'Residential',
     },
     {
       url: 'https://i.postimg.cc/Y9kw21Fz/c2432567-a8d3-47fe-96a5-267c7a4c3c61.jpg',
