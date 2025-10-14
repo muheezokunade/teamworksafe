@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { Badge } from '@/components/ui/badge';
 
 interface ProjectCardProps {
   title: string;
@@ -42,17 +41,6 @@ export default function ProjectCard({
             fill
             className="object-cover group-hover:scale-110 transition-transform duration-300"
           />
-          <div className="absolute top-4 right-4">
-            <Badge
-              className={`${
-                status === 'Completed'
-                  ? 'bg-green-600 text-white'
-                  : 'bg-accent text-text'
-              }`}
-            >
-              {status}
-            </Badge>
-          </div>
         </div>
         <div className="p-6">
           <h3 className="font-heading font-bold text-lg text-text mb-2 leading-heading line-clamp-2 group-hover:text-primary transition-colors">
