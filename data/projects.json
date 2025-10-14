@@ -10,12 +10,10 @@
     "year": "2023",
     "status": "Completed",
     "duration": "24 months",
-    "image": "/images/projects/lekki-plaza.jpg",
+    "image": "https://i.postimg.cc/CLwR1QDc/Screenshot-2025-10-14-at-09-23-07.png",
     "gallery": [
-      "/images/projects/lekki-plaza-1.jpg",
-      "/images/projects/lekki-plaza-2.jpg",
-      "/images/projects/lekki-plaza-3.jpg",
-      "/images/projects/lekki-plaza-4.jpg"
+      "https://i.postimg.cc/CLwR1QDc/Screenshot-2025-10-14-at-09-23-07.png",
+      "https://i.postimg.cc/KvQRgDD2/Screenshot-2025-10-14-at-09-23-14.png"
     ],
     "overview": "Luxury residential estate development featuring premium waterfront properties with modern amenities and world-class infrastructure in the heart of Lekki.",
     "objectives": [
