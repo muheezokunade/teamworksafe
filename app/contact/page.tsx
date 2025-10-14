@@ -38,7 +38,7 @@ export default function ContactPage() {
                 </h3>
                 <a
                   href="mailto:info@teamworksafeoperations.com"
-                  className="text-gray-600 hover:text-blue-600 transition-colors text-sm font-medium break-all leading-relaxed"
+                  className="text-gray-600 hover:text-blue-600 transition-colors text-sm font-medium whitespace-nowrap overflow-hidden text-ellipsis block leading-relaxed"
                 >
                   info@teamworksafeoperations.com
                 </a>
