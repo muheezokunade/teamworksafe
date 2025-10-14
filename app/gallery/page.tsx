@@ -29,27 +29,27 @@ const galleryData = {
   grid: [
     {
       url: 'https://i.postimg.cc/J43ZG8Sz/1e5be2fb-3a49-49d6-89a3-a980a7df55f1.jpg',
-      alt: 'Completed exterior',
-      caption: 'Residential Complex – Lagos – Completed 2024',
-      category: 'Residential',
+      alt: 'Office complex under construction',
+      caption: 'Office Complex – Lagos – Completed 2022',
+      category: 'Commercial',
     },
     {
       url: 'https://i.postimg.cc/25nDfH1R/d49ea030-b211-426a-91ed-cd31b0cff84b.jpg',
-      alt: 'Interior shell',
-      caption: 'Interior Shell – Lekki – 2024',
-      category: 'Interiors',
+      alt: 'Residential apartment buildings',
+      caption: 'Residential apartment 2021',
+      category: 'Residential',
     },
     {
       url: 'https://i.postimg.cc/d18t4s2G/929fb0ca-b46d-4811-88e5-4f7f6fd8710a.jpg',
-      alt: 'Concrete works in progress',
-      caption: 'Structural Works – Port Harcourt – In Progress 2024',
+      alt: 'Educational institution under construction',
+      caption: 'Educational institution – Port Harcourt – In Progress',
       category: 'In-Progress',
     },
     {
       url: 'https://i.postimg.cc/GhpdsJ5B/c07ac774-cc11-411f-9dd3-dad09880cd5f.jpg',
-      alt: 'Completed exterior – mid-rise',
-      caption: 'Mid-Rise Apartments – Lagos – Completed 2024',
-      category: 'Residential',
+      alt: 'Mid-rise apartments under construction',
+      caption: 'Mid-Rise Apartments – Lagos – Ongoing',
+      category: 'In-Progress',
     },
     {
       url: 'https://i.postimg.cc/0jP54Tnh/92db97dc-a4e3-41d9-9124-bd80a0ae4b60.jpg',
