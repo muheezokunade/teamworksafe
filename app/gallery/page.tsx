@@ -146,14 +146,17 @@ export default function GalleryPage() {
         </div>
       </section>
 
-      {/* Gallery Grid */}
+      {/* Gallery Masonry Grid */}
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {/* Mobile: Simple Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:hidden">
             {galleryImages.map((image, index) => (
               <div
                 key={index}
-                className="relative aspect-square overflow-hidden rounded-lg cursor-pointer group bg-gray-100"
+                className={`relative overflow-hidden rounded-lg cursor-pointer group bg-gray-100 ${
+                  index % 3 === 0 ? 'aspect-[4/3]' : index % 5 === 0 ? 'aspect-square' : 'aspect-[3/4]'
+                }`}
                 onClick={() => setSelectedImage(image.url)}
               >
                 <Image
@@ -161,11 +164,52 @@ export default function GalleryPage() {
                   alt={image.alt}
                   fill
                   className="object-cover transition-transform duration-300 group-hover:scale-110"
-                  sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                  sizes="(max-width: 640px) 100vw, 50vw"
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
               </div>
             ))}
+          </div>
+
+          {/* Desktop: Creative Masonry Layout */}
+          <div className="hidden md:grid grid-cols-12 gap-4 auto-rows-[200px]">
+            {galleryImages.map((image, index) => {
+              // Create varied spans for creative layout
+              const patterns = [
+                { col: 'col-span-4', row: 'row-span-2' },    // Medium tall
+                { col: 'col-span-3', row: 'row-span-1' },    // Small
+                { col: 'col-span-5', row: 'row-span-2' },    // Large
+                { col: 'col-span-4', row: 'row-span-1' },    // Medium wide
+                { col: 'col-span-3', row: 'row-span-2' },    // Tall narrow
+                { col: 'col-span-6', row: 'row-span-1' },    // Wide short
+                { col: 'col-span-6', row: 'row-span-2' },    // Large wide
+                { col: 'col-span-4', row: 'row-span-2' },    // Medium tall
+                { col: 'col-span-3', row: 'row-span-1' },    // Small
+                { col: 'col-span-5', row: 'row-span-1' },    // Medium
+              ];
+              
+              const pattern = patterns[index % patterns.length];
+              
+              return (
+                <div
+                  key={index}
+                  className={`relative ${pattern.col} ${pattern.row} overflow-hidden rounded-lg cursor-pointer group bg-gray-100 shadow-md hover:shadow-xl transition-shadow duration-300`}
+                  onClick={() => setSelectedImage(image.url)}
+                >
+                  <Image
+                    src={image.url}
+                    alt={image.alt}
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-110"
+                    sizes="(max-width: 1024px) 50vw, 33vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                    <p className="text-sm font-semibold">Project Image {index + 1}</p>
+                  </div>
+                </div>
+              );
+            })}
           </div>
 
           {/* Stats */}
