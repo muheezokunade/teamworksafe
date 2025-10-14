@@ -8,11 +8,13 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 const heroImages = [
-  '/images/hero/hero-1.jpg',
-  '/images/hero/hero-2.jpg',
-  '/images/hero/hero-3.jpg',
-  '/images/hero/hero-4.jpg',
-  '/images/hero/hero-5.jpg',
+  'https://i.postimg.cc/kgp45hMF/49daa97a-bdd9-4474-b22d-6dbab185794f.jpg',
+  'https://i.postimg.cc/MpWRB4Sz/6cd52f7e-6787-429a-927d-f91c4029e9a0.jpg',
+  'https://i.postimg.cc/j2tq1pvj/7513a68b-4480-4615-b6f3-3fbd0d60cfae.jpg',
+  'https://i.postimg.cc/FKYYgXCM/82b2cf04-4778-4ab5-a268-19425d3ca4a9.jpg',
+  'https://i.postimg.cc/QCmNZfn8/87235c92-ad1b-41e7-b0b6-fc2bf39112fc.jpg',
+  'https://i.postimg.cc/gJ66dbvd/9b7139d8-8ecf-44e1-b8a7-3cdb9105198e.jpg',
+  'https://i.postimg.cc/HsWs9CV4/a5fbe6d2-e46d-486a-8f7e-ccdfb6628eb0.jpg',
 ];
 
 export default function Hero() {
@@ -82,6 +84,7 @@ export default function Hero() {
             fill
             className="object-cover opacity-30"
             priority
+            unoptimized
           />
         </div>
         
@@ -102,6 +105,7 @@ export default function Hero() {
                 fill
                 className="object-cover"
                 priority={currentImageIndex === 0}
+                unoptimized
               />
             </motion.div>
           </AnimatePresence>
@@ -114,6 +118,7 @@ export default function Hero() {
               fill
               className="object-cover"
               priority
+              unoptimized
             />
           </div>
         )}
