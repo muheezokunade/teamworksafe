@@ -1,145 +1,51 @@
 [
   {
     "id": "1",
-    "name": "Peninsula Properties Ltd",
-    "logo": "/images/clients/peninsula.png",
-    "sector": "Real Estate",
-    "description": "Leading real estate development company in Lagos"
-  },
-  {
-    "id": "2",
-    "name": "Rivers Energy Corporation",
-    "logo": "/images/clients/rivers-energy.png",
-    "sector": "Energy",
-    "description": "Renewable energy solutions provider"
-  },
-  {
-    "id": "3",
-    "name": "Capital Homes Development",
-    "logo": "/images/clients/capital-homes.png",
-    "sector": "Real Estate",
-    "description": "Residential property development"
-  },
-  {
-    "id": "4",
-    "name": "Atlantic Properties PLC",
-    "logo": "/images/clients/atlantic-properties.png",
-    "sector": "Real Estate",
-    "description": "Commercial real estate management"
-  },
-  {
-    "id": "5",
-    "name": "Delta Construction Ltd",
-    "logo": "/images/clients/delta-construction.png",
-    "sector": "Construction",
-    "description": "Civil engineering and construction"
-  },
-  {
-    "id": "6",
-    "name": "Nigerian National Petroleum Corporation",
-    "logo": "/images/clients/nnpc.png",
-    "sector": "Oil & Gas",
-    "description": "National oil company"
-  },
-  {
-    "id": "7",
     "name": "Julius Berger Nigeria PLC",
-    "logo": "/images/clients/julius-berger.png",
+    "logo": "https://images.seeklogo.com/logo-png/40/1/julius-berger-nigeria-plc-logo-png_seeklogo-400661.png",
     "sector": "Construction",
     "description": "Leading construction and civil engineering company"
   },
   {
-    "id": "8",
+    "id": "2",
     "name": "Dangote Group",
-    "logo": "/images/clients/dangote.png",
+    "logo": "https://brandeps.com/logo-download/D/Dangote-logo-vector-01.svg",
     "sector": "Manufacturing",
     "description": "Multinational industrial conglomerate"
   },
   {
-    "id": "9",
+    "id": "3",
+    "name": "Nigerian National Petroleum Corporation",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwe6qZpjwsle1HM54JN0J9PVEw_L7QkZF30w&s",
+    "sector": "Oil & Gas",
+    "description": "National oil company"
+  },
+  {
+    "id": "4",
     "name": "Shell Nigeria",
-    "logo": "/images/clients/shell.png",
+    "logo": "https://1000logos.net/wp-content/uploads/2017/06/Emblem-Shell.jpg",
     "sector": "Oil & Gas",
     "description": "International oil and gas company"
   },
   {
-    "id": "10",
+    "id": "5",
     "name": "Chevron Nigeria",
-    "logo": "/images/clients/chevron.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Chevron_Logo.svg/512px-Chevron_Logo.svg.png?20190717174006",
     "sector": "Oil & Gas",
     "description": "Energy corporation"
   },
   {
-    "id": "11",
+    "id": "6",
     "name": "Lagos State Government",
-    "logo": "/images/clients/lagos-state.png",
+    "logo": "https://lagosstate.gov.ng/static/media/lasg__logo.a2c220a60f6e22b1113d.png",
     "sector": "Government",
     "description": "State government infrastructure projects"
   },
   {
-    "id": "12",
+    "id": "7",
     "name": "Federal Ministry of Works",
-    "logo": "/images/clients/federal-works.png",
+    "logo": "https://www.fmw.gov.ng/themes/front_end_themes_01/images/general_images/SealNigerianPresident.png",
     "sector": "Government",
     "description": "Federal infrastructure development"
-  },
-  {
-    "id": "13",
-    "name": "Nestle Nigeria PLC",
-    "logo": "/images/clients/nestle.png",
-    "sector": "Manufacturing",
-    "description": "Food and beverage manufacturer"
-  },
-  {
-    "id": "14",
-    "name": "MTN Nigeria",
-    "logo": "/images/clients/mtn.png",
-    "sector": "Telecommunications",
-    "description": "Leading telecommunications provider"
-  },
-  {
-    "id": "15",
-    "name": "Guinness Nigeria PLC",
-    "logo": "/images/clients/guinness.png",
-    "sector": "Manufacturing",
-    "description": "Brewing and beverage company"
-  },
-  {
-    "id": "16",
-    "name": "First Bank of Nigeria",
-    "logo": "/images/clients/firstbank.png",
-    "sector": "Banking",
-    "description": "Commercial banking services"
-  },
-  {
-    "id": "17",
-    "name": "Access Bank PLC",
-    "logo": "/images/clients/access-bank.png",
-    "sector": "Banking",
-    "description": "Financial services provider"
-  },
-  {
-    "id": "18",
-    "name": "Eko Hotel & Suites",
-    "logo": "/images/clients/eko-hotel.png",
-    "sector": "Hospitality",
-    "description": "Luxury hotel and conference center"
-  },
-  {
-    "id": "19",
-    "name": "Lagos Business School",
-    "logo": "/images/clients/lbs.png",
-    "sector": "Education",
-    "description": "Leading business school"
-  },
-  {
-    "id": "20",
-    "name": "Shoprite Nigeria",
-    "logo": "/images/clients/shoprite.png",
-    "sector": "Retail",
-    "description": "Retail chain operations"
   }
 ]
-
-
-

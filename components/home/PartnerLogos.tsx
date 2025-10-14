@@ -2,8 +2,8 @@ import LogoStrip from '@/components/shared/LogoStrip';
 import clientsData from '@/data/clients.json';
 
 export default function PartnerLogos() {
-  // Select first 12 clients for the logo strip
-  const featuredClients = clientsData.slice(0, 12);
+  // Display all client logos
+  const featuredClients = clientsData;
 
   return (
     <section className="py-16 md:py-20 bg-bg">
