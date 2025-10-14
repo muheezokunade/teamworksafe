@@ -51,12 +51,12 @@ export default function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <Link href="/" className="inline-block">
-              <div className="relative h-12 w-48">
+              <div className="relative h-16 w-56">
                 <Image
                   src="https://i.postimg.cc/vB80WypB/Teamwork-safe-logo-2.png"
                   alt="Teamwork Safe Operations Limited"
                   fill
-                  className="object-contain object-left brightness-0 invert"
+                  className="object-contain object-left"
                   priority
                   unoptimized
                 />
