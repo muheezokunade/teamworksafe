@@ -9,7 +9,6 @@ interface ProjectCardProps {
   client: string;
   sector: string;
   location: string;
-  year: string;
   status: string;
   image: string;
   href: string;
@@ -21,7 +20,6 @@ export default function ProjectCard({
   client,
   sector,
   location,
-  year,
   status,
   image,
   href,
@@ -50,7 +48,6 @@ export default function ProjectCard({
           <div className="space-y-1 text-xs text-muted mb-4">
             <p><span className="font-semibold text-text">Sector:</span> {sector}</p>
             <p><span className="font-semibold text-text">Location:</span> {location}</p>
-            <p><span className="font-semibold text-text">Year:</span> {year}</p>
           </div>
           <div className="flex flex-wrap gap-2">
             {tags.slice(0, 3).map((tag, index) => (

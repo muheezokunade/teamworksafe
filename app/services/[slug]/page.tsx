@@ -153,7 +153,6 @@ export default function ServiceDetailPage({ params }: Props) {
                   client={project.client}
                   sector={project.sector}
                   location={project.location}
-                  year={project.year}
                   status={project.status}
                   image={project.image}
                   href={`/projects/${project.slug}`}

@@ -24,7 +24,6 @@ export interface Project {
   sector: string;
   service: string;
   location: string;
-  year: string;
   status: string;
   duration: string;
   image: string;

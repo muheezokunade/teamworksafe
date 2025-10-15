@@ -72,10 +72,6 @@ export default function ProjectDetailPage({ params }: Props) {
               <MapPin className="w-5 h-5" />
               <span>{project.location}</span>
             </div>
-            <div className="flex items-center gap-2">
-              <Calendar className="w-5 h-5" />
-              <span>{project.year}</span>
-            </div>
           </div>
         </div>
       </section>
@@ -125,10 +121,6 @@ export default function ProjectDetailPage({ params }: Props) {
                   <div>
                     <div className="text-muted mb-1">Duration</div>
                     <div className="font-semibold text-text">{project.duration}</div>
-                  </div>
-                  <div>
-                    <div className="text-muted mb-1">Year</div>
-                    <div className="font-semibold text-text">{project.year}</div>
                   </div>
                   <div>
                     <div className="text-muted mb-1">Location</div>
@@ -215,7 +207,6 @@ export default function ProjectDetailPage({ params }: Props) {
                   client={relatedProject.client}
                   sector={relatedProject.sector}
                   location={relatedProject.location}
-                  year={relatedProject.year}
                   status={relatedProject.status}
                   image={relatedProject.image}
                   href={`/projects/${relatedProject.slug}`}
