@@ -86,9 +86,7 @@ export default function RootLayout({
       "availableLanguage": ["en", "yo", "ig", "ha"]
     },
     "sameAs": [
-      "https://www.linkedin.com/company/teamwork-safe-operations",
-      "https://www.facebook.com/teamworksafeoperations",
-      "https://www.instagram.com/teamworksafeoperations"
+      "https://www.instagram.com/teamworksafeoperationsltd?igsh=MXVlejhqcjE0b2U0Yw=="
     ],
     "address": [
       {

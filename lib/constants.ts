@@ -25,9 +25,6 @@ export const SITE_CONFIG = {
     },
   },
   social: {
-    facebook: 'https://facebook.com/teamworksafeoperations',
-    twitter: 'https://twitter.com/teamworksafe',
-    linkedin: 'https://linkedin.com/company/teamwork-safe-operations',
     instagram: 'https://www.instagram.com/teamworksafeoperationsltd?igsh=MXVlejhqcjE0b2U0Yw==',
   },
   stats: {

@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import { Instagram, Mail, Phone, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -66,16 +66,7 @@ export default function Footer() {
               Teamwork Safe Operations Limited was founded in 2009 and officially incorporated as a limited liability company in 2018. We deliver excellence in construction, project management, and renewable energy solutions.
             </p>
             <div className="flex space-x-3">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-surface/10 hover:bg-accent rounded-md flex items-center justify-center transition-colors" aria-label="Facebook">
-                <Facebook className="w-4 h-4" />
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-surface/10 hover:bg-accent rounded-md flex items-center justify-center transition-colors" aria-label="Twitter">
-                <Twitter className="w-4 h-4" />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-surface/10 hover:bg-accent rounded-md flex items-center justify-center transition-colors" aria-label="LinkedIn">
-                <Linkedin className="w-4 h-4" />
-              </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-surface/10 hover:bg-accent rounded-md flex items-center justify-center transition-colors" aria-label="Instagram">
+              <a href="https://www.instagram.com/teamworksafeoperationsltd?igsh=MXVlejhqcjE0b2U0Yw==" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-surface/10 hover:bg-accent rounded-md flex items-center justify-center transition-colors" aria-label="Instagram">
                 <Instagram className="w-4 h-4" />
               </a>
             </div>
