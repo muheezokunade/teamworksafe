@@ -192,7 +192,7 @@ export default function About() {
                     Managing Director
                   </p>
                   <p className="text-lg text-gray-700 mb-4">
-                    <span className="font-semibold">BSc Building, PGD Theology, MBA, MNIOB</span>
+                    <span className="font-semibold">BSc Building, PGD Theology, MBA, MNIOB, CORBON, Msc Construction Mgt.</span>
                   </p>
                   <p className="text-gray-700 leading-relaxed mb-6">
                     He holds a degree in Building from University of Lagos, Lagos State. Nweke Okechukwu has practiced Civil and Building Engineering for over 25yrs. His practice cuts across several parts of Nigeria and Africa. He has managed and supervised projects such as:
