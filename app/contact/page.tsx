@@ -29,8 +29,8 @@ export default function ContactPage() {
             {/* Email Card */}
             <div className="group relative bg-white border-2 border-blue-100 rounded-xl p-8 hover:border-blue-500 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
               <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-bl-3xl opacity-10 group-hover:opacity-20 transition-opacity"></div>
-              <div className="relative">
-                <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+              <div className="relative text-center">
+                <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform mx-auto">
                   <Mail className="w-7 h-7 text-white" />
                 </div>
                 <h3 className="font-heading font-bold text-xl text-gray-900 mb-3">
@@ -38,7 +38,7 @@ export default function ContactPage() {
                 </h3>
                 <a
                   href="mailto:info@teamworksafeoperations.com"
-                  className="text-gray-600 hover:text-blue-600 transition-colors text-sm font-medium block leading-relaxed text-center"
+                  className="text-gray-600 hover:text-blue-600 transition-colors text-sm font-medium block leading-relaxed"
                 >
                   info@teamworksafeoperations.com
                 </a>
