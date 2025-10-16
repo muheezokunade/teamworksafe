@@ -6,8 +6,6 @@ import { Button } from '@/components/ui/button';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { CheckCircle, ArrowRight } from 'lucide-react';
 import servicesData from '@/data/services.json';
-import projectsData from '@/data/projects.json';
-import ProjectCard from '@/components/shared/ProjectCard';
 
 type Props = {
   params: { slug: string };
@@ -55,10 +53,6 @@ export default function ServiceDetailPage({ params }: Props) {
     notFound();
   }
 
-  // Find related projects
-  const relatedProjects = projectsData
-    .filter((p) => p.service === service.title)
-    .slice(0, 2);
 
   return (
     <div className="pt-20">
@@ -132,37 +126,6 @@ export default function ServiceDetailPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Case Studies */}
-      {relatedProjects.length > 0 && (
-        <section className="py-16 md:py-24 bg-bg">
-          <div className="max-w-container mx-auto px-4 md:px-6">
-            <div className="text-center mb-12">
-              <h2 className="font-heading font-bold text-3xl md:text-4xl text-text mb-4 leading-heading">
-                Recent Projects
-              </h2>
-              <p className="text-muted text-lg max-w-2xl mx-auto leading-body">
-                See how we've delivered success for our clients
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {relatedProjects.map((project) => (
-                <ProjectCard
-                  key={project.id}
-                  title={project.title}
-                  client={project.client}
-                  sector={project.sector}
-                  location={project.location}
-                  status={project.status}
-                  image={project.image}
-                  href={`/projects/${project.slug}`}
-                  tags={project.tags}
-                />
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
 
       {/* FAQ */}
       <section className="py-16 md:py-24 bg-surface">

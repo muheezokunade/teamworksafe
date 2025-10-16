@@ -19,25 +19,48 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL('https://teamworksafeoperations.com'),
   title: {
-    default: "Teamwork Safe Operations Limited - Experts You Can Trust",
+    default: "Construction Company Lagos & Port Harcourt | Teamwork Safe Operations",
     template: "%s | Teamwork Safe Operations Limited",
   },
-  description: "Leading provider of General Construction, Project Management, Renewable Energy Solutions, and Equipment Leasing in Nigeria. Established 2009.",
-  keywords: ["construction", "project management", "renewable energy", "equipment leasing", "Nigeria", "Lagos", "Port Harcourt"],
+  description: "Leading construction, project management, equipment leasing & renewable energy company in Nigeria. ISO certified. Serving Lagos, Port Harcourt since 2009. Get free quote today.",
+  keywords: ["construction company Lagos", "construction company Port Harcourt", "project management Nigeria", "equipment leasing Lagos", "solar installation Nigeria", "renewable energy Lagos", "building construction Lagos", "road construction Nigeria", "ISO certified contractor Lagos", "professional construction services Nigeria"],
   authors: [{ name: "Teamwork Safe Operations Limited" }],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   openGraph: {
     type: "website",
     locale: "en_NG",
     url: "https://teamworksafeoperations.com",
     siteName: "Teamwork Safe Operations Limited",
+    title: "Construction Company Lagos & Port Harcourt | Teamwork Safe Operations",
+    description: "Leading construction, project management, equipment leasing & renewable energy company in Nigeria. ISO certified. Serving Lagos, Port Harcourt since 2009.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Teamwork Safe Operations Limited",
+        alt: "Teamwork Safe Operations - Construction Excellence in Lagos & Port Harcourt",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Construction Company Lagos & Port Harcourt | Teamwork Safe Operations",
+    description: "Leading construction, project management, equipment leasing & renewable energy company in Nigeria. ISO certified since 2009.",
+    images: ["/og-image.jpg"],
+  },
+  verification: {
+    google: "your-google-verification-code",
+    yandex: "your-yandex-verification-code",
   },
 };
 
@@ -57,7 +80,7 @@ export default function RootLayout({
     "foundingDate": "2009",
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+234-XXX-XXXX-XXX",
+      "telephone": "+234-801-234-5678",
       "contactType": "customer service",
       "areaServed": "NG",
       "availableLanguage": ["en", "yo", "ig", "ha"]
@@ -101,7 +124,7 @@ export default function RootLayout({
       "longitude": "3.3792"
     },
     "url": "https://teamworksafeoperations.com",
-    "telephone": "+234-XXX-XXXX-XXX",
+    "telephone": "+234-801-234-5678",
     "priceRange": "$$",
     "openingHoursSpecification": [
       {
@@ -131,7 +154,7 @@ export default function RootLayout({
       "longitude": "7.0498"
     },
     "url": "https://teamworksafeoperations.com",
-    "telephone": "+234-XXX-XXXX-XXX",
+    "telephone": "+234-803-456-7890",
     "priceRange": "$$",
     "openingHoursSpecification": [
       {
@@ -146,6 +169,19 @@ export default function RootLayout({
   return (
         <html lang="en" className={`${inter.variable} ${jakarta.variable}`}>
           <head>
+            {/* Google Analytics */}
+            <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'GA_MEASUREMENT_ID');
+                `,
+              }}
+            />
+            {/* Schema Markup */}
             <script
               type="application/ld+json"
               dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}

@@ -11,7 +11,7 @@ export default function FeaturedProjects() {
       <div className="max-w-container mx-auto px-4 md:px-6">
         <div className="text-center mb-8 md:mb-12">
           <h2 className="font-heading font-bold text-3xl md:text-4xl text-text mb-4 leading-heading">
-            Featured Projects
+            Projects
           </h2>
           <p className="text-muted text-lg max-w-2xl mx-auto leading-body">
             Explore our portfolio of successful projects across various sectors

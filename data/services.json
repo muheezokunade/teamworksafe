@@ -118,13 +118,14 @@
   },
   {
     "id": "4",
-    "slug": "equipment-maintenance",
-    "title": "Plant and Equipment Maintenance",
-    "description": "Professional maintenance services to maximize equipment lifespan and minimize downtime.",
+    "slug": "equipment-leasing",
+    "title": "Plant and Equipment Leasing and Maintenance",
+    "description": "Professional equipment leasing and maintenance services to maximize equipment lifespan and minimize downtime.",
     "icon": "Wrench",
     "image": "/images/services/maintenance-new.jpg",
-    "fullDescription": "Our skilled technicians provide preventive and corrective maintenance for all types of construction plants and industrial equipment.",
+    "fullDescription": "We provide comprehensive plant and equipment leasing solutions along with professional maintenance services for all types of construction plants and industrial equipment.",
     "scope": [
+      "Equipment leasing and rental services",
       "Preventive maintenance programs",
       "Emergency repair services",
       "Equipment diagnostics",
