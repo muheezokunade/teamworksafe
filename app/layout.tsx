@@ -25,6 +25,16 @@ export const metadata: Metadata = {
   description: "Leading construction, project management, equipment leasing & renewable energy company in Nigeria. ISO certified. Serving Lagos, Port Harcourt since 2009. Get free quote today.",
   keywords: ["construction company Lagos", "construction company Port Harcourt", "project management Nigeria", "equipment leasing Lagos", "solar installation Nigeria", "renewable energy Lagos", "building construction Lagos", "road construction Nigeria", "ISO certified contractor Lagos", "professional construction services Nigeria"],
   authors: [{ name: "Teamwork Safe Operations Limited" }],
+  icons: {
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
   robots: {
     index: true,
     follow: true,
